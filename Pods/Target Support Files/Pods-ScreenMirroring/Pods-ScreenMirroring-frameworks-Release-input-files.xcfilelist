@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-ScreenMirroring/Pods-ScreenMirroring-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ConnectSDK/ConnectSDK.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ConnectSDK/Core/LGCast.framework/LGCast
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ConnectSDK/Core/GStreamerForLGCast.framework/GStreamerForLGCast

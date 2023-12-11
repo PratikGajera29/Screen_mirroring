@@ -1,0 +1,1929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0462BCE54851819F652D673085B4612A /* NetcastTVServiceConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD51097291A0151013AF7C2B16842AA /* NetcastTVServiceConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		048211851F9DF7A030441BC0794CA585 /* DLNAHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE7558F81E38DD60AAE004D14143A91 /* DLNAHTTPServer.m */; };
+		051AD1A7EB86CBDB90ECD27CB8151677 /* NetcastTVService_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 84591C1151E089F4CE091105105487F1 /* NetcastTVService_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		051CA44A23C22F156CA54FCEE02BFC2D /* ConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F84C694186766E4C3CA3A71C9044651 /* ConnectionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07A8B33254C7314CC3D2B9646B931145 /* SynchronousBlockRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = C502A0970A7FE254ED972E9830713AD7 /* SynchronousBlockRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		088DB5E06961D58D77A611765A980709 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F34DB4126CD2E1970DE8F145E0C6F95 /* GCDWebServerMultiPartFormRequest.m */; };
+		099A1A3E714A7F40C049C2C19EA421B6 /* NSObject+FeatureNotSupported_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B5CAD14242AD58CC5C797BD887CC3323 /* NSObject+FeatureNotSupported_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		09D952F8F340AEE525709803E2A9568D /* MobileCapability.h in Headers */ = {isa = PBXBuildFile; fileRef = ED4B07D8281C14B96A59144BA967D17D /* MobileCapability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C280A3E4AC996C02D004820871BBE6E /* CameraSourceCapability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C20A713A2B6920B8D9AA506D1C917C5 /* CameraSourceCapability.m */; };
+		0C8D08A027663E3ECE8B45A8C08CBA55 /* WebAppSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A0CA5111505AADEFD7F493A828D6793 /* WebAppSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EAA3A214CEA766A70822D4D51F2687B /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D21E6CF0735E7A779F9128516C02A530 /* GCDWebServerFileRequest.m */; };
+		0F66AF7D412DA4B020D920416427FE01 /* SubscriptionDeduplicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E1944C14629A216190569D8BD94B6C2C /* SubscriptionDeduplicator.m */; };
+		112970E27223803CB7E316686484546B /* SubtitleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 834B0B05E7CE02FE144B2D582FD0056E /* SubtitleInfo.m */; };
+		11BF77322E7DB3024C14388C810EC136 /* NSString+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E31DCAE9FDDCD4FA93C4C17F8827D2 /* NSString+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		123B3198BAA179E6993F794E8ACA9356 /* SSDPDiscoveryProvider_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77CFDB7856222449D3F1E926140F9028 /* SSDPDiscoveryProvider_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		145BAE284F15E46CE8F944BEFC42659F /* DiscoveryProviderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F36370FFDD593B9D60564D8C260B0768 /* DiscoveryProviderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		147A09FACA03322B94743690B1BF4B98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		15050F45DBF47F9690C2655BE1178968 /* ConnectSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B1AB98EC6B196751A751FBDC838C9A /* ConnectSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		150EC7ABCEEA2FC8DE67692B47AEDF31 /* BlockRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = B81B157C1BCDA640D2C28CA49D892691 /* BlockRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15A252C2FED3D0FB34B689721BF2906D /* RokuService.h in Headers */ = {isa = PBXBuildFile; fileRef = D1028493711207D59B6F173EE70BA5B0 /* RokuService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16A3361A0AEC78D5B43F844F9C865F3E /* Pods-ScreenMirroringTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6051257941C61D91BC4481694FEA4B5 /* Pods-ScreenMirroringTests-dummy.m */; };
+		17F2C3805F8E8A4D71CC872038DCAA60 /* SSDPSocketListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E810990BE1AB5013939FA0CE5550821 /* SSDPSocketListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		194CF788141D1E771485F1B6C10F58B0 /* Pods-ScreenMirroring-ScreenMirroringUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BA0EFCF78757C386FE4DEFB50633D1 /* Pods-ScreenMirroring-ScreenMirroringUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1996949C307B8FD5DE7DF1998AFB018B /* MirroringSourceCapability.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A57E9B9D78E81270BB735D08A7AB17 /* MirroringSourceCapability.m */; };
+		1A5E4981B0C17F266C29AF2328B54BB7 /* MouseControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EE0DF23103C7F0E31BEDCE3A9DB90DB4 /* MouseControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB8E1FB55D48236E3A36E7094004644 /* WebAppSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEEDEEEE3AC916244704E76F6258E1C /* WebAppSession.m */; };
+		1D6006BE40DD878D63C85FB28C87B4B6 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1906DA2E5878E293DF1862FC14C8C246 /* GCDWebServerRequest.m */; };
+		1ED9A777E1DABCEDD020AB5B3431B413 /* AirPlayService.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C06E978D429FE73D6D24919A3AA287 /* AirPlayService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F59E0E365E97FE88761548D227686B5 /* CTASIDataDecompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = 315D2B2006290079BF163306E2583E2E /* CTASIDataDecompressor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F6244C500D804F8AA0DCF04AF6E80B3 /* CTXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C87C31B03FB2C4FEC1A4293031C2501E /* CTXMLReader.m */; };
+		20650FAA90B83654A8AAEC8642A57BDD /* DispatchQueueBlockRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = BA44449A76B2FA7B597B0120396A3155 /* DispatchQueueBlockRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2138ABC63FDB802AB8D92C4C7531489C /* AirPlayServiceHTTP_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB9D715F86AE1102939FEC76E1B7AB1 /* AirPlayServiceHTTP_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22171BB5788A159042416D6766F8BEB0 /* WebOSWebAppSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E516D2D9BBDC61130400A3B264E3D9 /* WebOSWebAppSession.m */; };
+		22B549A472909C50320DB6FA93FFE2AB /* ServiceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D36FC0BFA20BD4864C2B4BC9244F9A /* ServiceConfig.m */; };
+		23459570E64B873C639AF0761928E76E /* WebAppLauncher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED296A89157BE3F3E54A313B648FD64 /* WebAppLauncher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23753094C6D1E4EABB0790CB18EF0F08 /* ImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE421E316774B6C6381B31D7D9800477 /* ImageInfo.m */; };
+		23BE85269CC778BDB6F0E6E6A916A470 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = DC31BB938D20EBB66EB28A7E23423406 /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23BF144C5A96D224D2AFE20236795305 /* ServiceConfigDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 745059AC1C75EA331892D6F52CACE1ED /* ServiceConfigDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2561AF85B94F2CAE3896CC0BF4A513DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		26831313EBF067B2EDB99C3876BD8306 /* CameraSourceCapability.h in Headers */ = {isa = PBXBuildFile; fileRef = 3860D54FC7E2BE69399FA5482DD89217 /* CameraSourceCapability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2718745B4F3721FD75654B1A495DAB95 /* AirPlayServiceHTTPKeepAlive.h in Headers */ = {isa = PBXBuildFile; fileRef = BE73B3A2FEF388E3ECE83390554E90BF /* AirPlayServiceHTTPKeepAlive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27A7509367C5BB2688CF4BFC72FFF6C6 /* TextInputStatusInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF34E70A154B8F2AB4AD7DE0D0619A8 /* TextInputStatusInfo.m */; };
+		288E0EA912B568A50C30DA517D1DDCAC /* LaunchSession.h in Headers */ = {isa = PBXBuildFile; fileRef = B99813898D064FE2D49FB88C4D85E8C4 /* LaunchSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B914A6D522EED767ADFF4F7CB0ECEB4 /* WebOSTVService.h in Headers */ = {isa = PBXBuildFile; fileRef = 7809D780BAEFE13BA9615B9E144C6A09 /* WebOSTVService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C9CF5DA41D5655D2A7ABECB10A13A76 /* CameraParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = E75FB8FDD3D3485B2842B86671B846DB /* CameraParameter.m */; };
+		31AB1AD94D9D76D26D837EBA13E803D6 /* SynchronousBlockRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 602D3B0C4588CD205D1A748CC485A4BC /* SynchronousBlockRunner.m */; };
+		321195E9E853A36930F26F42543AA453 /* ServiceCommandDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F6A63A4C5FB94546AFCF8B1901630974 /* ServiceCommandDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3273AE303A359AF0E30C92CAB0F8B390 /* ConnectableDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 10425C639877C784FB06B94E1D8233F9 /* ConnectableDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		329842743818DA7A51A61C49BC63F1F1 /* ChannelInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CA7C7169741F6EF45E9E161D3124A4D8 /* ChannelInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32C3539334A08956AEE3E55C1408ADAB /* MediaControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A32F6B3FE18EE3CB0898B79400512B2 /* MediaControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		339946841BC34CE01B4761C161A0E6B0 /* CTASIFormDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D804F48A3D68D24106C3EAB85EF98F /* CTASIFormDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3515B7F88C786340D0F699D0E046C66E /* ScreenMirroringService.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C760B5117B02F12002DE9E96B9320D /* ScreenMirroringService.m */; };
+		357358C516202385AA99674FF5AC6C95 /* AirPlayServiceHTTPKeepAlive.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E1ADED9384DED15FF7CEBF25549E58 /* AirPlayServiceHTTPKeepAlive.m */; };
+		3617A81D378A53BBB433DA7F57A0F88C /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE289C549CF8434FCC7829BD6E03396 /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38DF04BF68C505B2F9F508D75D6D5EDA /* AppStateChangeNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 238A617D95AB355C91D4B1D76F52B0A1 /* AppStateChangeNotifier.m */; };
+		3959D19333C58D23A34DD86256C5F106 /* ExternalInputControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F965E9B402F8C93C3212CA278BF2908 /* ExternalInputControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		399D38788CA01EA4495B2F2720FF6435 /* ZeroConfDiscoveryProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AC745462B9F4B177045C498072CF94 /* ZeroConfDiscoveryProvider.m */; };
+		3C0F4259B7F4E3EC3167E881E895B063 /* DiscoveryManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D7EB62CA7B6BE39192E99B7980F7F895 /* DiscoveryManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CCD6AE973CB5B1349E04B6614173F51 /* WebOSTVService+LGCast.m in Sources */ = {isa = PBXBuildFile; fileRef = 332EF122C72C0C899A79BC98E3A98428 /* WebOSTVService+LGCast.m */; };
+		3D303AC9293726119FB8764D1587BCE5 /* TVControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EE494BA05A1B0BD40F2F387044EF1B0C /* TVControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DB676DD72A50D2C86AFFA736D8BACF5 /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BF08F435303CB4317C9129C88A9342 /* ConnectionManager.m */; };
+		3DCEFADD0AF3DA078EA7AE91E4A98127 /* WebOSWebAppSession_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4618A5052E896978A5ADE4DC5C3D0480 /* WebOSWebAppSession_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		407FD5B4AE13717A81D425DEE7DCC43E /* ConnectError.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A537BBE2D38AB21CB2BFC0B7F005A /* ConnectError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4258CC7BEBA6CDE1A87C10B147B4E1F3 /* CTASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF90491BD923045718CB1FFD96B9A9E /* CTASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		438D1C784AD1C8AAD88AC2989886D7B2 /* ConnectableDeviceStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4952612D65096C97BA4EE5BD6E4A9D41 /* ConnectableDeviceStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		453C2AD37E26F98C845180D42FE0344A /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B59331052179B2A1DC30B6BE62C398 /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45781DA52B56BB179D58DF0BD3A4FA90 /* DiscoveryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D3636CD18E86E6AD64C69A7BE264FF /* DiscoveryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4584B4950C1A9D6675B546052B5E585A /* CTASIInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C9EE6D3F96C79669A0C263761FD4FD /* CTASIInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46BD5DD5F6244407EE7C985864804F71 /* CTGuid.m in Sources */ = {isa = PBXBuildFile; fileRef = F33C53D3A2CB57A2EE22703A102F0FE8 /* CTGuid.m */; };
+		48AC80ED422E41FC9C912C02B92B3A30 /* AppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C283B2940A537BB71C514F44204234B8 /* AppInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48D31B6C058CC0FEB1D676C247DA847B /* ChannelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F01956862C116633011197CB588865 /* ChannelInfo.m */; };
+		4A5F1E08907C9CFFA038DB3D02C37D6F /* AirPlayServiceHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DF3A2CEF4DA8DA1A5C3FF6ADEF0592 /* AirPlayServiceHTTP.m */; };
+		4AD121BFFB15E60F87C8617BF77BBB87 /* CTASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA5DB77D794449506A3709FD044C5C2 /* CTASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		4B44A01557412D43543CF3C60335CBD8 /* LGSRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C7323DFC82C10259807E4C10EA1F82 /* LGSRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C1373E1F6034C589DBA4F2960480E33 /* XMLWriter+ConvenienceMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 99EC55C7F1327A4B7978FDFB84EEE486 /* XMLWriter+ConvenienceMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C3F8004A92448DD46A2112152B4ACAD /* ExternalInputInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C27D0AE4027D4C54CC7C0A33A28743 /* ExternalInputInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C642FE7B65CBC6959AC45BDFEAE70F7 /* JSONObjectCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC3BBCD88FF3232AE9B0230B5C566FB /* JSONObjectCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CD07FC8321281287A73D93CCF791D03 /* ImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7807CA1F8279E191BA56ADCEC08603D5 /* ImageInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D16DBEB434B19FF8DBE146C330BE45E /* CTASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ED63091C87F9184B3726E3C2E3155A39 /* CTASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		4D5CBB407DEC14974A57F65FDD042A15 /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = CF523B7FAC41720F5C93338EA0A0274A /* GCDWebServerFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E870DE844F3767C6477B46B520781DF /* XMLWriter+ConvenienceMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A19BE0A35DA3B3C97961A762B56CB6 /* XMLWriter+ConvenienceMethods.m */; };
+		4E8C9451F92FE3C65C93FF4864923269 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D74D9EFFD6159DE5B927D4FDC6F7BD8C /* GCDWebServerFunctions.m */; };
+		4F2ADD316FC949F344F7A67960CC5542 /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = CAEF3C09442FB4F22FFAE96ACC1FE9C8 /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCE1F2A6BE8825AAA0C413C1E1FF9A6 /* XMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ACF73AD549B7B041567E3DE142767D /* XMLWriter.m */; };
+		4FEE2DAC796D688B967591D285A20BBE /* ConnectSDKDefaultPlatforms.h in Headers */ = {isa = PBXBuildFile; fileRef = F944661C1E45EC5C6012FD4A22577DCA /* ConnectSDKDefaultPlatforms.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5048C8FE3CF663C57C19D44796CD4119 /* NSObject+FeatureNotSupported_Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EE5EBE500C25A9076A22BE1DAFA314 /* NSObject+FeatureNotSupported_Private.m */; };
+		50ABC06704631B3B3E892DFD09AFEC68 /* CTReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F53C6EDA439162DD12C170FE2663573 /* CTReachability.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		5445D78133145D2CFF6FBD7FC57AD910 /* TextInputControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE51B622C982B10A9FCEB5416A475BA /* TextInputControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54754F5933C9EE29F5C9AD8342C89870 /* AirPlayWebAppSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E5862050D898B1ACCE7BA8143F315D /* AirPlayWebAppSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		548DE8D1845BD3F13F9852A58FEBF608 /* ServiceCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8000615858FE3059C7C4B27B4D42FF40 /* ServiceCommand.m */; };
+		555784D12FEFC08A1B6067DDE581688C /* WebOSTVServiceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE19B10EB2060E37A0EC125CDD200CB /* WebOSTVServiceConfig.m */; };
+		5816E6E2A90D551B77E9B18F4972818D /* WebOSTVService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D71E3AAB38ADD462C8ABBC8AF598038 /* WebOSTVService.m */; };
+		58AB2CFF31C46BF04FBE0BCCBF1F75E6 /* Pods-ScreenMirroring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B138FCFE5DAB038F2FFE3B08BCEBC3 /* Pods-ScreenMirroring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58E6F730FC4C28905A16774E417F3F13 /* NSMutableDictionary+NilSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 823FF79B9B1EE4C80979F877F9F4886A /* NSMutableDictionary+NilSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		597B981FC82814521BE6B7A1383143C5 /* DeviceServiceReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 617C0F093D361BCDB990030FB53B19EA /* DeviceServiceReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59D86E0940BA8FB14611931A80A53502 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2883A50F5CF76337CCB132A6F5178E5A /* GCDWebServerFileResponse.m */; };
+		59E544CB217B236E146DAF34476B7AE5 /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C82F7B39921511A5E2CB4713B655CD53 /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A8EEAAE9C9260CDBB45450EE164BA7F /* ExternalInputInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684BB0BD781ACA4095A4D47FAF70745 /* ExternalInputInfo.m */; };
+		5ABAF13BE0C283F902138CC505E653B8 /* MirroringSinkCapability.h in Headers */ = {isa = PBXBuildFile; fileRef = 13B7E8B7C87A6C6FCFE6B9C4FA417D7C /* MirroringSinkCapability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1FB207F52812FA556DB9815BDC2273 /* ServiceConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFFE7837858275696082A3E1D0D6887 /* ServiceConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		604D8E63408152E70EB8A4F02E81CD55 /* WebOSTVServiceMouse.h in Headers */ = {isa = PBXBuildFile; fileRef = 15516201BE4DD0531B5678F3DE2FE9B0 /* WebOSTVServiceMouse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6065AA37F6A0384220A0544EF50B352C /* MirroringSourceCapability.h in Headers */ = {isa = PBXBuildFile; fileRef = 12EDE5DA6CA9E1E6DD53917C26DB9854 /* MirroringSourceCapability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60BF710A72658CCC7BAAA408071A7385 /* NSMutableDictionary+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4023147A70A6F6BA7A174F419F3F44 /* NSMutableDictionary+NilSafe.m */; };
+		6153EC19EA4B1ECE724F575B74880DF6 /* Pods-ScreenMirroring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D6FF57CEF47F232543262062000BFD /* Pods-ScreenMirroring-dummy.m */; };
+		63F0EFEB4D73EBA94C92551DBA10DE52 /* ScreenMirroringControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F2C50B18B0F1F68DC1DA477930C5C38 /* ScreenMirroringControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65AEAD9102E15C27CF7CFE202A0AC8AF /* CTASIDataCompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EAFE273A5A4B95299208399436D2AF1 /* CTASIDataCompressor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		670C98A09498136D7DCE49F8B3E9AB16 /* CTASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D87F3374E7E04F2366A9A2886AD2702 /* CTASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		68B2D1931152392A62E933B68E182F8E /* MobileCapability.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E95F20457C5C863ACC8BC77CB73C5C /* MobileCapability.m */; };
+		6988830A4EE3960A64DBB43B3667B970 /* ZeroConfDiscoveryProvider_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D6FA68B2E7FCA96082CE910CFBCBCBCD /* ZeroConfDiscoveryProvider_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6B739DF2EDAD4BC3013BC732ED4935A5 /* ConnectError.m in Sources */ = {isa = PBXBuildFile; fileRef = BA013CFD7E5DB1C4F5C4D89F2E949BE6 /* ConnectError.m */; };
+		6BA88B0395221E17BC7597DA70763180 /* RemoteCameraService.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B93833292CD9DCC2EDD981F9CDA05CA /* RemoteCameraService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C3F70509D0FEDA7ACC82CFB77363F86 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C7A5FF8006608AB68C6FB6A96325AB /* GCDWebServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C58DC63A72F8EE41F01ABD18E9F2CC6 /* AirPlayService_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 91BC2A2E9FB215CE50E1543360252F91 /* AirPlayService_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6D5F249297B336097D4A3A7BF4F79822 /* CTGuid.h in Headers */ = {isa = PBXBuildFile; fileRef = 658D9A80B5A48DF1EB623500F01627C0 /* CTGuid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DD68169A43942C74ED267E4C3C1763C /* WebOSTVServiceSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8152F42F3275A0E9E197F2C6E769E2 /* WebOSTVServiceSocketClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E3FB9966B6C718C73429E1EC6AA6EBB /* RemoteCameraControl.h in Headers */ = {isa = PBXBuildFile; fileRef = D01E82B17378686C6BD82D404F14D1CF /* RemoteCameraControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E569E482DD458A1A26604D2D6D1EA0C /* LaunchSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C852C2575DD160F764687A77E237A1A8 /* LaunchSession.m */; };
+		6EC143DD2A16A8BCA98E7B66489A29D5 /* CommonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A9A35ADEDAC65A8F17C4513E392875 /* CommonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F598CBFDEFECA6E971C25077F0DFB44 /* DLNAService_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 376B761E4805857CDA1B9CD64DC1BFF7 /* DLNAService_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		707CC10EE1E1FC4EA2A3F20D794C7C48 /* CTASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1B80CD26CC76B058A436F2B83EC2DC /* CTASIInputStream.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		70A7ACF9E43E9C3C5168E586297994F6 /* CTASIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B9D2FD578250AA9922CECCFAF879C9 /* CTASIHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7216734471359D0A9C4EDA617B13D6AB /* NSDictionary+KeyPredicateSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FD5255062EC0CFC873C34D464633D2 /* NSDictionary+KeyPredicateSearch.m */; };
+		7290B28989BEC84F1906AF957D23E5A3 /* ConnectUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFA2193810F88FC50B324FEE4EDE72 /* ConnectUtil.m */; };
+		7725B9162E1E98597A37C5695D628190 /* CTASIHTTPRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BC563CE412AEED42161502569196E9 /* CTASIHTTPRequestDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		786351E23553C13616DD836243C11798 /* ServiceAsyncCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C44480395958B3595D957DECC5500A8 /* ServiceAsyncCommand.m */; };
+		7883EB87D82DA6E9F0D2E4983B3C8225 /* DiscoveryProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CD83B874844B10FC729AD2EA374C784 /* DiscoveryProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79BE817375B238F68BBEF9B5DE550A81 /* CTASIDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E6A742A5F724E4B0AC45265DBB8EAD /* CTASIDownloadCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D136D607A2F1FA1A61292D420CB2A60 /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE9B1D958A8FAFB0E6B6BF02347535B /* GCDWebServerFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D6CCAE9D41995FA1609CE1A3F3325A5 /* SSDPDiscoveryProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B4294E05ABB153FDF6743B5A1130391B /* SSDPDiscoveryProvider.m */; };
+		7DD2654513C9EFCABA0A8F6FC612A06B /* CapabilityFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BB5E551BF9E7D9CCEDC6C28CEDD49B /* CapabilityFilter.m */; };
+		7E2B18EA11EBB2EE2C4803204ADA7444 /* Pods-ScreenMirroring-ScreenMirroringUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4BFF090EE1919752993A032C76FEC /* Pods-ScreenMirroring-ScreenMirroringUITests-dummy.m */; };
+		7EB39A9F8711C3C3EC78AFD58FD5006E /* WebOSTVServiceConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D98CBECA3DAE6DF45B2840B816A31FB /* WebOSTVServiceConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F3C271307A33B40B6546AA08FEA10C4 /* CTASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 394A6C5C5E21D2A467C9E16CF9C37FD1 /* CTASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		812816B7DA6BAC4C6F6B264EF29ECAD2 /* RokuService_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 90946D22B633B7B3266EF5BE48C157AB /* RokuService_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		81CFB89C3A9A08830D6A55009863A863 /* CTASIHTTPRequestConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A28B42953CFD4FAFAD39B1BE6168BF /* CTASIHTTPRequestConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81F5DA3C9007E26B5C01B03C799AB00D /* RemoteCameraService.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49BFAE999D3A4A121C66DFB6DB3C2F /* RemoteCameraService.m */; };
+		87A416311FE8CA1CCC4C3E4FCF3AB747 /* AirPlayServiceMirrored.h in Headers */ = {isa = PBXBuildFile; fileRef = D20BEFD29E1768A67C7ED8234684092A /* AirPlayServiceMirrored.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A179FF9E971DA6865FB010D46268C9B /* MediaLaunchObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F4BAB35960C8CED261A4D7A492FF01 /* MediaLaunchObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AD5FB45BF49BF7B0E40CA5632DAA977 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC99528F73284E54A051E4660FA2628 /* GCDWebServerDataRequest.m */; };
+		8BA6641CF8AF9F9DAB8E3BE603074FAE /* DiscoveryManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A34BEA1E7F42EB8A64197E335BE6A97 /* DiscoveryManager_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8CFC39A94899C57E5A449E51A641937F /* NetcastTVService.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FC04D856227C671CAA421A3EAD95F6 /* NetcastTVService.m */; };
+		8EC6638AB5630DAEFD441B3B564E3DB5 /* KeyControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DC15810D070375476EF75A90B78D79 /* KeyControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FAA0918C1FFA93009DBA361BBB3DEB3 /* AirPlayServiceMirrored.m in Sources */ = {isa = PBXBuildFile; fileRef = F988460F47A36BCC61BCCAAC98E52CEE /* AirPlayServiceMirrored.m */; };
+		93CA0D3128A3382DC1BAB72BADBAC4D9 /* DeviceService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B378B248025A2C37791796394C49E /* DeviceService.m */; };
+		93EF15C09B2E12DBECB5E52F102CEEC9 /* PowerControl.h in Headers */ = {isa = PBXBuildFile; fileRef = D675F49D397931419DD79C869AA44A23 /* PowerControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9452DB1B14C86151727B1E4484BD4E97 /* ConnectableDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D201CB3DDAEE2E1A33831833BA757BD /* ConnectableDevice.m */; };
+		949C7F45B8ABFF933021B11C5AA8BB1F /* Capability.h in Headers */ = {isa = PBXBuildFile; fileRef = 4033A2134C15291E4F51655498A1DC6C /* Capability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959069FD1A3F7A1C13B0C07518A0AB00 /* CTASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E023C9B2B1571CAC5B44439067AE0BA /* CTASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		9695987315FDA97CB75AF64880D252B8 /* WebOSTVService+LGCast.h in Headers */ = {isa = PBXBuildFile; fileRef = 184C7815AE059C6C458B3978D131B2C6 /* WebOSTVService+LGCast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98A2776A613434E3E6B17D97400D21DA /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBC8638AC7FB5D9B28993D66EC28433 /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98C1750B688FB23EA1E9A9163B2E0DDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9BE01B9621D334A3E6CC8A05DE900A6A /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E34411D047830E629F051D41663D048 /* GCDWebServerURLEncodedFormRequest.m */; };
+		9C6BB965A22D9B33780D189D382F0A19 /* CapabilityConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BA8A0F812E32D3F81B07CD4598C273 /* CapabilityConstants.m */; };
+		9EA667ECEB2173F6F62670A25630849A /* CTASICacheDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A53B49CABDDE606F8621BD9D33A649E4 /* CTASICacheDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FA21EEC39871742B54DE2C6469F4E7C /* CTXMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = A204863BFFD17A6052C2AB97575F7003 /* CTXMLReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FAD2D9CEA35BACB55BB2E7298CBA48A /* ServiceAsyncCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 44168EAAAFE481C0775E6E9ABC815076 /* ServiceAsyncCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A024C06E5AC9FB5249F3342C105C3F91 /* DeviceService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3759F795C5A3FCC0229117DD6558695D /* DeviceService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A059088B89391F598AFC9A82EC238BCD /* SSDPSocketListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 55ED50DDFD93562FCEDB7CB4A7F5B1BB /* SSDPSocketListener.m */; };
+		A1121B3CE0604F8BDB21F3B675E3652C /* MediaPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB5A5B232B8D183B676CBECA58AAA32A /* MediaPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1196A75FE0D6C41D771E9FCAA129614 /* CTReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D19269DF53AA1EF66C75DE3EE3E05D /* CTReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2937C43A53D972C7AE4E253EB8B1A7C /* WebOSWebAppSession.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B5F00A3D64A6FE105D830E04118E24 /* WebOSWebAppSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3CD6C079F94F9C7FC3DB352AA033AFE /* DLNAService.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D6C8179A8BCF54B970842E72C31045 /* DLNAService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D5543FE3418478B3AAACF6611244BB /* ProgramInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D59FD8616A4C96C8779D35DF0033D925 /* ProgramInfo.m */; };
+		A599A0A4474C263DF8A8160339A45977 /* SSDPDiscoveryProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EA58E7AB7174019AA43F4E4E7CB3A9D7 /* SSDPDiscoveryProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A606F11BE4066D012C0BD581946E2951 /* ZeroConfDiscoveryProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2AAC575F95CF9DDB8E58B05415B69C /* ZeroConfDiscoveryProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABD3090945BB0791094492CB07A18FC3 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 459F6B775B8D63EEEBF4B9904E57593B /* GCDWebServerFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACFB9DE959D3DD6A92DF132DB46CA56D /* CameraSinkCapability.h in Headers */ = {isa = PBXBuildFile; fileRef = E8FAD91835D64E5E4B498819EF3BE3F6 /* CameraSinkCapability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE592D6689C5D48EDE130042C03522E9 /* NetcastTVService.h in Headers */ = {isa = PBXBuildFile; fileRef = 799FEFB8375A0671C9F7FB4BEDFF8CE5 /* NetcastTVService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF07540CED5A358022439BAE1C0C0D57 /* ConnectSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B8302C981ADBA447368828226700FA /* ConnectSDK-dummy.m */; };
+		AF945765DA9C060E0AE1885220DB843A /* ServiceSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012873457E6432609F16082DAAA786E /* ServiceSubscription.m */; };
+		B1C8B1D4DBA1493E4D07937C4E2361F0 /* AppStateChangeNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F63E2E11F5DF9FEBA29266AAEE74D6 /* AppStateChangeNotifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4082638D0A66CA295AD75CD58ACE52C /* DevicePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C09ACC3922D6B3A63667B692BCE091E5 /* DevicePicker.m */; };
+		B4723880F26D9315A45EFE2C54DB9301 /* DiscoveryProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2AB0108970EA76335E871126223D83 /* DiscoveryProvider.m */; };
+		B4DA2B7172D8EA1EC930FCE0237E3688 /* DIALService.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EB80FB5FB86ECD8830D949619DD9C4 /* DIALService.m */; };
+		B5AC360F1AB81E22F33D0F269A1062D6 /* LGSRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B8683273DF95C79060A51B9187CE3 /* LGSRWebSocket.m */; };
+		B657D951DE643DC4F5F17281DE85BF26 /* CameraSinkCapability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5981126F716B825F47437E2DB7170 /* CameraSinkCapability.m */; };
+		B7E2ABDBB45701C950963B990384FB41 /* SubtitleInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 58229CC50CF1FE18AAE0077225770125 /* SubtitleInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFD22C0B5FB0B027267BD855FAFEB1E0 /* DiscoveryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7EA3DBCE1B1BAD2430827DAD386E25 /* DiscoveryManager.m */; };
+		BFE6BA79E0C274813D930CB1578081BA /* MediaLaunchObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E8178E42C7EA0750566F3FCC49A03374 /* MediaLaunchObject.m */; };
+		C0C702502EA9502279BB3C0A09719D41 /* NSDictionary+KeyPredicateSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = F2A49607914942D4CFEE1BAFEEBA8807 /* NSDictionary+KeyPredicateSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F9CBB9F2DD92D6D18A105522C050F4 /* CTASIAuthenticationDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B064E624697392ECA76D63C17A18F4 /* CTASIAuthenticationDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C27804E67ED1037066E70A13DA567024 /* DevicePickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DAAE810B5961D25E1AA22EE52F61BF4B /* DevicePickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2D8EFB6EAA5F2DCD4ACA6C6AC9364C3 /* DevicePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 523750B571577A7AE33042766F04ED85 /* DevicePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3F6F9C3A50C3665B8521A429EDD56F3 /* WebAppSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CA04D23E08C12877977E0EE118B2A3 /* WebAppSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4A50E6EE340FE4D87C13114632BF8EE /* WebOSTVService_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4739BDC0265B4A9BBA7671F909118A9F /* WebOSTVService_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C6C75982843B631172AC0F9CAA49B49A /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 790873581B0AAA386FAD569309B0AF39 /* GCDWebServerDataResponse.m */; };
+		C6D4A144D295B21A9D2099833E6905CE /* DefaultConnectableDeviceStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B977D418AA7166693F7AD4B9C0070230 /* DefaultConnectableDeviceStore.m */; };
+		C70F56BC21B21C461605E48AE9A58620 /* CTASIProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E547DD9C455C21623FC112037606447B /* CTASIProgressDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C71B89F0346C7DD8605AA74413D4FEFC /* MirroringSinkCapability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED6C57BBE15023C89AF6A2093A68C3C /* MirroringSinkCapability.m */; };
+		C9C93132C2008E3146506EC5D7CA12CC /* DeviceServiceReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AD538D13C8314C7889DC0CBCA5ED576D /* DeviceServiceReachability.m */; };
+		CB91905867B92EE21B90E9E1983B5678 /* ServiceSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 6998D51054B621931301FE7ADAB6C145 /* ServiceSubscription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1C85BE1CA39C24CC5DAAC83E65D73 /* WebOSTVServiceSocketClient_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 57057D0878677A1E3505029504BAF8C4 /* WebOSTVServiceSocketClient_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CE80A9E11B855DAECADB8DC23B44DB17 /* ToastControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DF3EABDBA2FD65CDA5C970B1C05B6DA /* ToastControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D25140997E63866831DF2592D80D7E41 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A876F4FCC551A4C6B7C9E423D36E241E /* GCDWebServerResponse.m */; };
+		D27EBEC8C30FFA7476C2A6133B1D30CF /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E72B98FBB5A3B34745E2A658D85CE3A /* GCDWebServerStreamedResponse.m */; };
+		D30B12DA2CCC293469059F16D2F5587B /* CTASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4CF39E197C798BCCCD5AF23006A681 /* CTASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		D5623A471B9876D82398E3D3B16BD34E /* ServiceDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = EBECA8C76246EE24C8BAD6EB0234C722 /* ServiceDescription.m */; };
+		D625548BA4F2EFF489617B50E63E041C /* DLNAHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 415D186A25AE5CC9A57E473861BF2EAA /* DLNAHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D708526A29D9A2308CEC698A449D6AB8 /* ConnectUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A10F847329DB168E26BA78B3B889375 /* ConnectUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D79F7E438F87744356D3B30470FE2BC4 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB6DCE00D84AF7BF176DBCEB19D1FE6 /* NSString+Common.m */; };
+		D9B96391CC4FB7F82899AD63E30A0E81 /* MediaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDD2FB160B6D70A2AFEF2345713A2CF /* MediaInfo.m */; };
+		D9C2C9D59C856B944EC34D595CA8A5BB /* TextInputStatusInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C2BF50B4277EFFF0BC00C7E9A85053C /* TextInputStatusInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA031B01460685B74B4A466F0075F996 /* AirPlayWebAppSession.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5E586D674747AE6AA440B9AB01201D /* AirPlayWebAppSession.m */; };
+		DA55A7FE5A17259FF8CABA14F3A5EE89 /* WebOSTVServiceMouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84379109E4E15DAEB3A17E237CE72125 /* WebOSTVServiceMouse.m */; };
+		DC8F684BDD790C40080AFDC202133C9E /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04837F3DF6F211C99D56ABEEAEB7FCD1 /* GCDWebServer.m */; };
+		DD0E4D9BA2CEA332FA9BA9FF93D4E707 /* SubscriptionDeduplicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7463A2B49D318CBC86FEDBEFB67DD19E /* SubscriptionDeduplicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD18ADEB478FB248FD753D51CF014E70 /* Launcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D77690415F6802A8446E07F4BDAD4C1B /* Launcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD3BFF1B537BCB5F98CD0CD86562F845 /* CapabilityFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A62603CFEC0BCD3D1D05FD99456509A /* CapabilityFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE5CFC08075F7D0D28F16E25C30E30EE /* NetcastTVServiceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9EE58B0CA4BA4366F31C99511743DC /* NetcastTVServiceConfig.m */; };
+		E174573CA87076649DF7C38344DE299A /* PlayListControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C138E5731EA580B7FCB4FF9670DEF8 /* PlayListControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D61125BD2927DCE9FB7E25B8C1BA52 /* DeviceServiceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B616A13240F349B89D79DE90D3625B /* DeviceServiceDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E216789410903558480817FAD2587B7F /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C7350B54134E8944CE5C22ABA53A9978 /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E22D42BE122AF6D85F31E1D1F36700A4 /* MediaInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A829CC378E8A2CC53AEA7E5478B2C1AB /* MediaInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3674C6E3BF9EE530121686908DD5EFD /* ProgramInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 011DE33F24674D70F001E16D2838D339 /* ProgramInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4DD1FA68A6D47F09039ACE88CC83E85 /* ServiceDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1375134B73D39F92E2BF857236AED5 /* ServiceDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5D4FEDA338E6E81697044DD92CE22D1 /* AirPlayService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A9D6B40BCCB20B2D68A18872EA2F4 /* AirPlayService.m */; };
+		E905BDB0DBED6541B9FA323C2C431564 /* DIALService.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A415CC2F03AA8605D007F3A58A930A /* DIALService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E981CF7382067BEB8E0608FAA9E60CEA /* ServiceCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 794EEF8EA12FDB5DC1AE42671B9E6DD0 /* ServiceCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9988EE402065FB31CCCAC78190D8C59 /* VolumeControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EED812D7E9DDC33CD49A9D52C2E6EF40 /* VolumeControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB674635B9B9D1F77C3DCEC7C8A6AEFC /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8968A836E728BBBFD3135537E6890F /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECB79872E62D355E304B56153446055F /* CameraParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A7BB674516A05DC52D7B9D1DA405E88 /* CameraParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF54F99B56D741C8806F75AE97DDD9BB /* DispatchQueueBlockRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364B7C9224B4651AF92F8E6E17B14D1 /* DispatchQueueBlockRunner.m */; };
+		F11B135813F7D8D0783A0A632DD52C37 /* WebOSTVServiceSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0C2E4826688751F80D1BBEC8AF471 /* WebOSTVServiceSocketClient.m */; };
+		F11BC6D84B2E66748731D02BAE9642AA /* CTASINetworkQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF687E2BC5C3196C8F64B3FE0D42558 /* CTASINetworkQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1408FC2B5DB7A3D4222840E92CDDDB2 /* DLNAHTTPServer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B45F39DA5AE1D730A2DE13535AE0C8 /* DLNAHTTPServer_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F14141FAF7D654EB20ECB6EF58A25098 /* DLNAService.m in Sources */ = {isa = PBXBuildFile; fileRef = 100DBAAD4560E63A156C176BEB7AFD25 /* DLNAService.m */; };
+		F1B6EEB3D50F07BC82369FEC366A252C /* RokuService.m in Sources */ = {isa = PBXBuildFile; fileRef = F89128A5A2094600FE755A2FCE2FFBC1 /* RokuService.m */; };
+		F2B433ADC4FF1FF332F92CEFBD02C14A /* Pods-ScreenMirroringTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC3AE8F0D2C581434D8A7229FE4D4D3 /* Pods-ScreenMirroringTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F35A4255268DC237D9F6946114FA65F7 /* ConnectableDeviceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F787A4F1B23A59653453D6B8D171B5 /* ConnectableDeviceDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D2383B751EE81230B3BCCC968025FA /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1120AA754AFBA6BB23884B7CAE655D40 /* GCDWebServerConnection.m */; };
+		F4D4FE4E529DB9C2A51556070476EA16 /* AirPlayServiceHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 181DFCB1D7C2F359DD01F5CC4AA3DAA9 /* AirPlayServiceHTTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DA552025F8A85161BD23C0AC950F10 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC1599CC8139141F5F99B983A324D1 /* GCDWebServerURLEncodedFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61C10C3F1F5A7B67E2BA2443446E223 /* XMLWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = B907CF7763633A6551D0C752CD2DC83D /* XMLWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F62D922CA890B7A572255D7FD3EE0088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F6BCBFFA71C4BD162CE1D15F90FDE9C1 /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = D62F020BD73436515AFEF320EB84ECE2 /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F95F294EB9DD311A2144B841BEFA27E9 /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391D7D255C0B46EF1D974BD1B5F5C59 /* AppInfo.m */; };
+		FBB1514166557587698DB769FCC9101B /* ConnectSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C429D4B16F62E380DF36DFCE12477AA2 /* ConnectSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC110F7C605AFFE56C4744DEC3903270 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0003ABD3624547654C3790D500AB6AD5 /* GCDWebServerErrorResponse.m */; };
+		FD8C9B881D0FAF05F67D67BCA2A5FB6A /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 17182F1D6E157523DCCCE0300A438BFD /* GCDWebServerConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEEA767792D6FCF5335128B3982D0E5B /* ScreenMirroringService.h in Headers */ = {isa = PBXBuildFile; fileRef = D6546DB37F68BB0FABCF681D152B4710 /* ScreenMirroringService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFC94087C9DB62BFA6C9CC93864D5B9A /* DefaultConnectableDeviceStore.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB11AB3CE920A292589F31BE7D1677D /* DefaultConnectableDeviceStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81BD85D258A2009174A49535FF42BA42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C4AA34011791DBC9489DB8234FCD39F;
+			remoteInfo = ConnectSDK;
+		};
+		A91FA8C6F4735FBF92EF176A087ECDA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E60C4F98A84DD2F83B99310C59DF31;
+			remoteInfo = "Pods-ScreenMirroring";
+		};
+		E162F93647B61B9536C251FAF05C0B62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C4AA34011791DBC9489DB8234FCD39F;
+			remoteInfo = ConnectSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0003ABD3624547654C3790D500AB6AD5 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = core/Frameworks/GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		0012873457E6432609F16082DAAA786E /* ServiceSubscription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ServiceSubscription.m; path = core/Services/Commands/ServiceSubscription.m; sourceTree = "<group>"; };
+		011DE33F24674D70F001E16D2838D339 /* ProgramInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProgramInfo.h; path = core/Helpers/ProgramInfo.h; sourceTree = "<group>"; };
+		0438A0BC7815DEEA0143D23D190B8168 /* Pods-ScreenMirroring-ScreenMirroringUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenMirroring-ScreenMirroringUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04837F3DF6F211C99D56ABEEAEB7FCD1 /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = core/Frameworks/GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
+		0B1375134B73D39F92E2BF857236AED5 /* ServiceDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceDescription.h; path = core/Services/Config/ServiceDescription.h; sourceTree = "<group>"; };
+		0C2BF50B4277EFFF0BC00C7E9A85053C /* TextInputStatusInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TextInputStatusInfo.h; path = core/Helpers/TextInputStatusInfo.h; sourceTree = "<group>"; };
+		0D98CBECA3DAE6DF45B2840B816A31FB /* WebOSTVServiceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebOSTVServiceConfig.h; path = core/Services/Config/WebOSTVServiceConfig.h; sourceTree = "<group>"; };
+		0DF3EABDBA2FD65CDA5C970B1C05B6DA /* ToastControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ToastControl.h; path = core/Services/Capabilities/ToastControl.h; sourceTree = "<group>"; };
+		0E1E8036A624655D47CA91FDAF20E9BD /* Pods-ScreenMirroringTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenMirroringTests-Info.plist"; sourceTree = "<group>"; };
+		0F2C50B18B0F1F68DC1DA477930C5C38 /* ScreenMirroringControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScreenMirroringControl.h; path = core/Services/Capabilities/ScreenMirroringControl.h; sourceTree = "<group>"; };
+		0F7B378B248025A2C37791796394C49E /* DeviceService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DeviceService.m; path = core/Services/DeviceService.m; sourceTree = "<group>"; };
+		100DBAAD4560E63A156C176BEB7AFD25 /* DLNAService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLNAService.m; path = core/Services/DLNAService.m; sourceTree = "<group>"; };
+		10425C639877C784FB06B94E1D8233F9 /* ConnectableDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConnectableDevice.h; path = core/Devices/ConnectableDevice.h; sourceTree = "<group>"; };
+		1061AD5B336B3A0DE1A2AB62A97C0AB3 /* Pods-ScreenMirroring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenMirroring.modulemap"; sourceTree = "<group>"; };
+		1120AA754AFBA6BB23884B7CAE655D40 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = core/Frameworks/GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
+		12EDE5DA6CA9E1E6DD53917C26DB9854 /* MirroringSourceCapability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MirroringSourceCapability.h; path = core/Services/Helpers/LGCast/ScreenMirroringService/MirroringSourceCapability.h; sourceTree = "<group>"; };
+		13B7E8B7C87A6C6FCFE6B9C4FA417D7C /* MirroringSinkCapability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MirroringSinkCapability.h; path = core/Services/Helpers/LGCast/ScreenMirroringService/MirroringSinkCapability.h; sourceTree = "<group>"; };
+		15516201BE4DD0531B5678F3DE2FE9B0 /* WebOSTVServiceMouse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebOSTVServiceMouse.h; path = core/Services/Helpers/WebOSTVServiceMouse.h; sourceTree = "<group>"; };
+		15F175D6BF83922A50438BA1D6B7F521 /* Pods-ScreenMirroring-ScreenMirroringUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ScreenMirroring-ScreenMirroringUITests"; path = Pods_ScreenMirroring_ScreenMirroringUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A28B42953CFD4FAFAD39B1BE6168BF /* CTASIHTTPRequestConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTASIHTTPRequestConfig.h; path = "core/Frameworks/asi-http-request/Classes/CTASIHTTPRequestConfig.h"; sourceTree = "<group>"; };
+		17182F1D6E157523DCCCE0300A438BFD /* GCDWebServerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = core/Frameworks/GCDWebServer/Core/GCDWebServerConnection.h; sourceTree = "<group>"; };
+		181DFCB1D7C2F359DD01F5CC4AA3DAA9 /* AirPlayServiceHTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AirPlayServiceHTTP.h; path = core/Services/Helpers/AirPlayServiceHTTP.h; sourceTree = "<group>"; };
+		184C7815AE059C6C458B3978D131B2C6 /* WebOSTVService+LGCast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WebOSTVService+LGCast.h"; path = "core/Services/Helpers/LGCast/WebOSTVService+LGCast.h"; sourceTree = "<group>"; };
+		1854A2799FFC2ACB3A49207B534B4591 /* ConnectSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ConnectSDK; path = ConnectSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C7A5FF8006608AB68C6FB6A96325AB /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = core/Frameworks/GCDWebServer/Core/GCDWebServer.h; sourceTree = "<group>"; };
+		1906DA2E5878E293DF1862FC14C8C246 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = core/Frameworks/GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
+		19B616A13240F349B89D79DE90D3625B /* DeviceServiceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceServiceDelegate.h; path = core/Services/DeviceServiceDelegate.h; sourceTree = "<group>"; };
+		19DF3A2CEF4DA8DA1A5C3FF6ADEF0592 /* AirPlayServiceHTTP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AirPlayServiceHTTP.m; path = core/Services/Helpers/AirPlayServiceHTTP.m; sourceTree = "<group>"; };
+		1BB9D715F86AE1102939FEC76E1B7AB1 /* AirPlayServiceHTTP_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AirPlayServiceHTTP_Private.h; path = core/Services/Helpers/AirPlayServiceHTTP_Private.h; sourceTree = "<group>"; };
+		1C20A713A2B6920B8D9AA506D1C917C5 /* CameraSourceCapability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CameraSourceCapability.m; path = core/Services/Helpers/LGCast/RemoteCameraService/CameraSourceCapability.m; sourceTree = "<group>"; };
+		1D8152F42F3275A0E9E197F2C6E769E2 /* WebOSTVServiceSocketClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebOSTVServiceSocketClient.h; path = core/Services/Helpers/WebOSTVServiceSocketClient.h; sourceTree = "<group>"; };
+		1DE19B10EB2060E37A0EC125CDD200CB /* WebOSTVServiceConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebOSTVServiceConfig.m; path = core/Services/Config/WebOSTVServiceConfig.m; sourceTree = "<group>"; };
+		1F53C6EDA439162DD12C170FE2663573 /* CTReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTReachability.m; path = "core/Frameworks/asi-http-request/External/Reachability/CTReachability.m"; sourceTree = "<group>"; };
+		1F965E9B402F8C93C3212CA278BF2908 /* ExternalInputControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExternalInputControl.h; path = core/Services/Capabilities/ExternalInputControl.h; sourceTree = "<group>"; };
+		1FBC8638AC7FB5D9B28993D66EC28433 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = core/Frameworks/GCDWebServer/Requests/GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		228A524B6D3641F5CE7B179384E8CEF5 /* ConnectSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ConnectSDK.modulemap; sourceTree = "<group>"; };
+		22BC1599CC8139141F5F99B983A324D1 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = core/Frameworks/GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		2364B7C9224B4651AF92F8E6E17B14D1 /* DispatchQueueBlockRunner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DispatchQueueBlockRunner.m; path = core/Helpers/BlockRunner/DispatchQueueBlockRunner.m; sourceTree = "<group>"; };
+		238A617D95AB355C91D4B1D76F52B0A1 /* AppStateChangeNotifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppStateChangeNotifier.m; path = core/Helpers/AppStateChangeNotifier.m; sourceTree = "<group>"; };
+		23F4BAB35960C8CED261A4D7A492FF01 /* MediaLaunchObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaLaunchObject.h; path = core/Helpers/MediaLaunchObject.h; sourceTree = "<group>"; };
+		2883A50F5CF76337CCB132A6F5178E5A /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileResponse.m; path = core/Frameworks/GCDWebServer/Responses/GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		29D804F48A3D68D24106C3EAB85EF98F /* CTASIFormDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTASIFormDataRequest.h; path = "core/Frameworks/asi-http-request/Classes/CTASIFormDataRequest.h"; sourceTree = "<group>"; };
+		2C4CF39E197C798BCCCD5AF23006A681 /* CTASIHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTASIHTTPRequest.m; path = "core/Frameworks/asi-http-request/Classes/CTASIHTTPRequest.m"; sourceTree = "<group>"; };
+		2D201CB3DDAEE2E1A33831833BA757BD /* ConnectableDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ConnectableDevice.m; path = core/Devices/ConnectableDevice.m; sourceTree = "<group>"; };
+		2DE51B622C982B10A9FCEB5416A475BA /* TextInputControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TextInputControl.h; path = core/Services/Capabilities/TextInputControl.h; sourceTree = "<group>"; };
+		2E72B98FBB5A3B34745E2A658D85CE3A /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = core/Frameworks/GCDWebServer/Responses/GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		2EAFE273A5A4B95299208399436D2AF1 /* CTASIDataCompressor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTASIDataCompressor.h; path = "core/Frameworks/asi-http-request/Classes/CTASIDataCompressor.h"; sourceTree = "<group>"; };
+		2ED6C57BBE15023C89AF6A2093A68C3C /* MirroringSinkCapability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MirroringSinkCapability.m; path = core/Services/Helpers/LGCast/ScreenMirroringService/MirroringSinkCapability.m; sourceTree = "<group>"; };
+		30268A79BDB3CD024819C38B5438BF6B /* Pods-ScreenMirroringTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenMirroringTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30EB80FB5FB86ECD8830D949619DD9C4 /* DIALService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DIALService.m; path = core/Services/DIALService.m; sourceTree = "<group>"; };
+		315D2B2006290079BF163306E2583E2E /* CTASIDataDecompressor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTASIDataDecompressor.h; path = "core/Frameworks/asi-http-request/Classes/CTASIDataDecompressor.h"; sourceTree = "<group>"; };
+		31FC04D856227C671CAA421A3EAD95F6 /* NetcastTVService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NetcastTVService.m; path = core/Services/NetcastTVService.m; sourceTree = "<group>"; };
+		332EF122C72C0C899A79BC98E3A98428 /* WebOSTVService+LGCast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WebOSTVService+LGCast.m"; path = "core/Services/Helpers/LGCast/WebOSTVService+LGCast.m"; sourceTree = "<group>"; };
+		3759F795C5A3FCC0229117DD6558695D /* DeviceService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceService.h; path = core/Services/DeviceService.h; sourceTree = "<group>"; };
+		376B761E4805857CDA1B9CD64DC1BFF7 /* DLNAService_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLNAService_Private.h; path = core/Services/DLNAService_Private.h; sourceTree = "<group>"; };
+		37F63E2E11F5DF9FEBA29266AAEE74D6 /* AppStateChangeNotifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppStateChangeNotifier.h; path = core/Helpers/AppStateChangeNotifier.h; sourceTree = "<group>"; };
+		3860D54FC7E2BE69399FA5482DD89217 /* CameraSourceCapability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CameraSourceCapability.h; path = core/Services/Helpers/LGCast/RemoteCameraService/CameraSourceCapability.h; sourceTree = "<group>"; };
+		394A6C5C5E21D2A467C9E16CF9C37FD1 /* CTASIFormDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTASIFormDataRequest.m; path = "core/Frameworks/asi-http-request/Classes/CTASIFormDataRequest.m"; sourceTree = "<group>"; };
+		3A34BEA1E7F42EB8A64197E335BE6A97 /* DiscoveryManager_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DiscoveryManager_Private.h; path = core/Discovery/DiscoveryManager_Private.h; sourceTree = "<group>"; };
+		3C44480395958B3595D957DECC5500A8 /* ServiceAsyncCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ServiceAsyncCommand.m; path = core/Services/Commands/ServiceAsyncCommand.m; sourceTree = "<group>"; };
+		3CD83B874844B10FC729AD2EA374C784 /* DiscoveryProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DiscoveryProvider.h; path = core/Discovery/DiscoveryProvider.h; sourceTree = "<group>"; };
+		3E34411D047830E629F051D41663D048 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = core/Frameworks/GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		3F8968A836E728BBBFD3135537E6890F /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = core/Frameworks/GCDWebServer/Core/GCDWebServerRequest.h; sourceTree = "<group>"; };
+		4033A2134C15291E4F51655498A1DC6C /* Capability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Capability.h; path = core/Services/Capabilities/Capability.h; sourceTree = "<group>"; };
+		40AC745462B9F4B177045C498072CF94 /* ZeroConfDiscoveryProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZeroConfDiscoveryProvider.m; path = core/Discovery/Providers/ZeroConfDiscoveryProvider.m; sourceTree = "<group>"; };
+		415D186A25AE5CC9A57E473861BF2EAA /* DLNAHTTPServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLNAHTTPServer.h; path = core/Services/Helpers/DLNAHTTPServer.h; sourceTree = "<group>"; };
+		41B34AEEAE6ADD783A33DE64ABAA4FA2 /* Pods-ScreenMirroring-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenMirroring-Info.plist"; sourceTree = "<group>"; };
+		41FD5255062EC0CFC873C34D464633D2 /* NSDictionary+KeyPredicateSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+KeyPredicateSearch.m"; path = "core/Helpers/NSDictionary+KeyPredicateSearch.m"; sourceTree = "<group>"; };
+		42E6A742A5F724E4B0AC45265DBB8EAD /* CTASIDownloadCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTASIDownloadCache.h; path = "core/Frameworks/asi-http-request/Classes/CTASIDownloadCache.h"; sourceTree = "<group>"; };
+		43A57E9B9D78E81270BB735D08A7AB17 /* MirroringSourceCapability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MirroringSourceCapability.m; path = core/Services/Helpers/LGCast/ScreenMirroringService/MirroringSourceCapability.m; sourceTree = "<group>"; };
+		43C138E5731EA580B7FCB4FF9670DEF8 /* PlayListControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PlayListControl.h; path = core/Services/Capabilities/PlayListControl.h; sourceTree = "<group>"; };
+		44168EAAAFE481C0775E6E9ABC815076 /* ServiceAsyncCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceAsyncCommand.h; path = core/Services/Commands/ServiceAsyncCommand.h; sourceTree = "<group>"; };
+		44DC15810D070375476EF75A90B78D79 /* KeyControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeyControl.h; path = core/Services/Capabilities/KeyControl.h; sourceTree = "<group>"; };
+		459F6B775B8D63EEEBF4B9904E57593B /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = core/Frameworks/GCDWebServer/Requests/GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		4618A5052E896978A5ADE4DC5C3D0480 /* WebOSWebAppSession_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebOSWebAppSession_Private.h; path = core/Services/Sessions/WebOSWebAppSession_Private.h; sourceTree = "<group>"; };
+		4739BDC0265B4A9BBA7671F909118A9F /* WebOSTVService_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebOSTVService_Private.h; path = core/Services/WebOSTVService_Private.h; sourceTree = "<group>"; };
+		47CA04D23E08C12877977E0EE118B2A3 /* WebAppSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebAppSessionDelegate.h; path = core/Services/Sessions/WebAppSessionDelegate.h; sourceTree = "<group>"; };
+		480D806B5A7657F2A4522DA00077DB1F /* Pods-ScreenMirroringTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ScreenMirroringTests"; path = Pods_ScreenMirroringTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4952612D65096C97BA4EE5BD6E4A9D41 /* ConnectableDeviceStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConnectableDeviceStore.h; path = core/Devices/ConnectableDeviceStore.h; sourceTree = "<group>"; };
+		4A6D054DC5868832157E54045EEEE32D /* Pods-ScreenMirroring-ScreenMirroringUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenMirroring-ScreenMirroringUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BD51097291A0151013AF7C2B16842AA /* NetcastTVServiceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetcastTVServiceConfig.h; path = core/Services/Config/NetcastTVServiceConfig.h; sourceTree = "<group>"; };
+		4E023C9B2B1571CAC5B44439067AE0BA /* CTASIDataCompressor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTASIDataCompressor.m; path = "core/Frameworks/asi-http-request/Classes/CTASIDataCompressor.m"; sourceTree = "<group>"; };
+		4E4023147A70A6F6BA7A174F419F3F44 /* NSMutableDictionary+NilSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+NilSafe.m"; path = "core/Helpers/NSMutableDictionary+NilSafe.m"; sourceTree = "<group>"; };
+		506F13033D097B6BFE2CC0C2826ABACD /* Pods-ScreenMirroring-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenMirroring-frameworks.sh"; sourceTree = "<group>"; };
+		523750B571577A7AE33042766F04ED85 /* DevicePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DevicePicker.h; path = core/Devices/DevicePicker.h; sourceTree = "<group>"; };
+		53B138FCFE5DAB038F2FFE3B08BCEBC3 /* Pods-ScreenMirroring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenMirroring-umbrella.h"; sourceTree = "<group>"; };
+		53B2047294ABD249BD013C43B4ACD635 /* GStreamerForLGCast.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GStreamerForLGCast.xcframework; path = core/Frameworks/LGCast/GStreamerForLGCast.xcframework; sourceTree = "<group>"; };
+		55ED50DDFD93562FCEDB7CB4A7F5B1BB /* SSDPSocketListener.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSDPSocketListener.m; path = core/Helpers/SSDPSocketListener.m; sourceTree = "<group>"; };
+		57057D0878677A1E3505029504BAF8C4 /* WebOSTVServiceSocketClient_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebOSTVServiceSocketClient_Private.h; path = core/Services/Helpers/WebOSTVServiceSocketClient_Private.h; sourceTree = "<group>"; };
+		57FE1611CE4419A7CECCB880778709E3 /* Pods-ScreenMirroring-ScreenMirroringUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenMirroring-ScreenMirroringUITests.modulemap"; sourceTree = "<group>"; };
+		58229CC50CF1FE18AAE0077225770125 /* SubtitleInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubtitleInfo.h; path = core/Helpers/SubtitleInfo.h; sourceTree = "<group>"; };
+		58F787A4F1B23A59653453D6B8D171B5 /* ConnectableDeviceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConnectableDeviceDelegate.h; path = core/Devices/ConnectableDeviceDelegate.h; sourceTree = "<group>"; };
+		59EE5EBE500C25A9076A22BE1DAFA314 /* NSObject+FeatureNotSupported_Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FeatureNotSupported_Private.m"; path = "core/Services/Helpers/NSObject+FeatureNotSupported_Private.m"; sourceTree = "<group>"; };
+		5A32F6B3FE18EE3CB0898B79400512B2 /* MediaControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaControl.h; path = core/Services/Capabilities/MediaControl.h; sourceTree = "<group>"; };
+		5AEEDEEEE3AC916244704E76F6258E1C /* WebAppSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebAppSession.m; path = core/Services/Sessions/WebAppSession.m; sourceTree = "<group>"; };
+		5B5287573507297811F997AFC753D071 /* ConnectSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConnectSDK.release.xcconfig; sourceTree = "<group>"; };
+		5BA4BFF090EE1919752993A032C76FEC /* Pods-ScreenMirroring-ScreenMirroringUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenMirroring-ScreenMirroringUITests-dummy.m"; sourceTree = "<group>"; };
+		5C2AAC575F95CF9DDB8E58B05415B69C /* ZeroConfDiscoveryProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZeroConfDiscoveryProvider.h; path = core/Discovery/Providers/ZeroConfDiscoveryProvider.h; sourceTree = "<group>"; };
+		5DC99528F73284E54A051E4660FA2628 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = core/Frameworks/GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		602D3B0C4588CD205D1A748CC485A4BC /* SynchronousBlockRunner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SynchronousBlockRunner.m; path = core/Helpers/BlockRunner/SynchronousBlockRunner.m; sourceTree = "<group>"; };
+		617C0F093D361BCDB990030FB53B19EA /* DeviceServiceReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceServiceReachability.h; path = core/Helpers/DeviceServiceReachability.h; sourceTree = "<group>"; };
+		6391D7D255C0B46EF1D974BD1B5F5C59 /* AppInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppInfo.m; path = core/Helpers/AppInfo.m; sourceTree = "<group>"; };
+		63A9A35ADEDAC65A8F17C4513E392875 /* CommonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CommonMacros.h; path = core/Helpers/CommonMacros.h; sourceTree = "<group>"; };
+		658D9A80B5A48DF1EB623500F01627C0 /* CTGuid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTGuid.h; path = "core/Frameworks/objc-guid/CTGuid.h"; sourceTree = "<group>"; };
+		65C1C1FDD3C5603A63B54C17EE6141BD /* ConnectSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConnectSDK.debug.xcconfig; sourceTree = "<group>"; };
+		65D19269DF53AA1EF66C75DE3EE3E05D /* CTReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTReachability.h; path = "core/Frameworks/asi-http-request/External/Reachability/CTReachability.h"; sourceTree = "<group>"; };
+		663124EB5B1A9E64B9C5B8AF7F6C2233 /* ConnectSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConnectSDK-prefix.pch"; sourceTree = "<group>"; };
+		6684BB0BD781ACA4095A4D47FAF70745 /* ExternalInputInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExternalInputInfo.m; path = core/Helpers/ExternalInputInfo.m; sourceTree = "<group>"; };
+		67BF08F435303CB4317C9129C88A9342 /* ConnectionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ConnectionManager.m; path = core/Services/Helpers/LGCast/ConnectionManager.m; sourceTree = "<group>"; };
+		67E95F20457C5C863ACC8BC77CB73C5C /* MobileCapability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MobileCapability.m; path = core/Services/Helpers/LGCast/Device/MobileCapability.m; sourceTree = "<group>"; };
+		68B1AB98EC6B196751A751FBDC838C9A /* ConnectSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConnectSDK-umbrella.h"; sourceTree = "<group>"; };
+		6998D51054B621931301FE7ADAB6C145 /* ServiceSubscription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceSubscription.h; path = core/Services/Commands/ServiceSubscription.h; sourceTree = "<group>"; };
+		69A19BE0A35DA3B3C97961A762B56CB6 /* XMLWriter+ConvenienceMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XMLWriter+ConvenienceMethods.m"; path = "core/Services/Helpers/XMLWriter+ConvenienceMethods.m"; sourceTree = "<group>"; };
+		6AF34E70A154B8F2AB4AD7DE0D0619A8 /* TextInputStatusInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TextInputStatusInfo.m; path = core/Helpers/TextInputStatusInfo.m; sourceTree = "<group>"; };
+		6BB5981126F716B825F47437E2DB7170 /* CameraSinkCapability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CameraSinkCapability.m; path = core/Services/Helpers/LGCast/RemoteCameraService/CameraSinkCapability.m; sourceTree = "<group>"; };
+		6C9EE58B0CA4BA4366F31C99511743DC /* NetcastTVServiceConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NetcastTVServiceConfig.m; path = core/Services/Config/NetcastTVServiceConfig.m; sourceTree = "<group>"; };
+		6F34DB4126CD2E1970DE8F145E0C6F95 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = core/Frameworks/GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		742367FBE8D12DDFB89E41AEC7BF80FB /* Pods-ScreenMirroring-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenMirroring-acknowledgements.markdown"; sourceTree = "<group>"; };
+		745059AC1C75EA331892D6F52CACE1ED /* ServiceConfigDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceConfigDelegate.h; path = core/Services/Config/ServiceConfigDelegate.h; sourceTree = "<group>"; };
+		7463A2B49D318CBC86FEDBEFB67DD19E /* SubscriptionDeduplicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubscriptionDeduplicator.h; path = core/Helpers/SubscriptionDeduplicator.h; sourceTree = "<group>"; };
+		77CFDB7856222449D3F1E926140F9028 /* SSDPDiscoveryProvider_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPDiscoveryProvider_Private.h; path = core/Discovery/Providers/SSDPDiscoveryProvider_Private.h; sourceTree = "<group>"; };
+		7807CA1F8279E191BA56ADCEC08603D5 /* ImageInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageInfo.h; path = core/Helpers/ImageInfo.h; sourceTree = "<group>"; };
+		7809D780BAEFE13BA9615B9E144C6A09 /* WebOSTVService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebOSTVService.h; path = core/Services/WebOSTVService.h; sourceTree = "<group>"; };
+		790873581B0AAA386FAD569309B0AF39 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = core/Frameworks/GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		794EEF8EA12FDB5DC1AE42671B9E6DD0 /* ServiceCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceCommand.h; path = core/Services/Commands/ServiceCommand.h; sourceTree = "<group>"; };
+		799FEFB8375A0671C9F7FB4BEDFF8CE5 /* NetcastTVService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetcastTVService.h; path = core/Services/NetcastTVService.h; sourceTree = "<group>"; };
+		7A10F847329DB168E26BA78B3B889375 /* ConnectUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConnectUtil.h; path = core/Helpers/ConnectUtil.h; sourceTree = "<group>"; };
+		7A62603CFEC0BCD3D1D05FD99456509A /* CapabilityFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CapabilityFilter.h; path = core/Discovery/CapabilityFilter.h; sourceTree = "<group>"; };
+		7A7BB674516A05DC52D7B9D1DA405E88 /* CameraParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CameraParameter.h; path = core/Services/Helpers/LGCast/RemoteCameraService/CameraParameter.h; sourceTree = "<group>"; };
+		7D71E3AAB38ADD462C8ABBC8AF598038 /* WebOSTVService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebOSTVService.m; path = core/Services/WebOSTVService.m; sourceTree = "<group>"; };
+		7D87F3374E7E04F2366A9A2886AD2702 /* CTASIAuthenticationDialog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTASIAuthenticationDialog.m; path = "core/Frameworks/asi-http-request/Classes/CTASIAuthenticationDialog.m"; sourceTree = "<group>"; };
+		7E810990BE1AB5013939FA0CE5550821 /* SSDPSocketListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPSocketListener.h; path = core/Helpers/SSDPSocketListener.h; sourceTree = "<group>"; };
+		8000615858FE3059C7C4B27B4D42FF40 /* ServiceCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ServiceCommand.m; path = core/Services/Commands/ServiceCommand.m; sourceTree = "<group>"; };
+		823FF79B9B1EE4C80979F877F9F4886A /* NSMutableDictionary+NilSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+NilSafe.h"; path = "core/Helpers/NSMutableDictionary+NilSafe.h"; sourceTree = "<group>"; };
+		82ACF73AD549B7B041567E3DE142767D /* XMLWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMLWriter.m; path = core/Frameworks/xswi/XMLWriter.m; sourceTree = "<group>"; };
+		834B0B05E7CE02FE144B2D582FD0056E /* SubtitleInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubtitleInfo.m; path = core/Helpers/SubtitleInfo.m; sourceTree = "<group>"; };
+		84379109E4E15DAEB3A17E237CE72125 /* WebOSTVServiceMouse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebOSTVServiceMouse.m; path = core/Services/Helpers/WebOSTVServiceMouse.m; sourceTree = "<group>"; };
+		84591C1151E089F4CE091105105487F1 /* NetcastTVService_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetcastTVService_Private.h; path = core/Services/NetcastTVService_Private.h; sourceTree = "<group>"; };
+		8813A023F6A606C3C2D94E6A53D51DC1 /* Pods-ScreenMirroring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenMirroring.debug.xcconfig"; sourceTree = "<group>"; };
+		88B8302C981ADBA447368828226700FA /* ConnectSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConnectSDK-dummy.m"; sourceTree = "<group>"; };
+		88E516D2D9BBDC61130400A3B264E3D9 /* WebOSWebAppSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebOSWebAppSession.m; path = core/Services/Sessions/WebOSWebAppSession.m; sourceTree = "<group>"; };
+		8A0CA5111505AADEFD7F493A828D6793 /* WebAppSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebAppSession.h; path = core/Services/Sessions/WebAppSession.h; sourceTree = "<group>"; };
+		8B93833292CD9DCC2EDD981F9CDA05CA /* RemoteCameraService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RemoteCameraService.h; path = core/Services/Helpers/LGCast/RemoteCameraService/RemoteCameraService.h; sourceTree = "<group>"; };
+		8D1B80CD26CC76B058A436F2B83EC2DC /* CTASIInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTASIInputStream.m; path = "core/Frameworks/asi-http-request/Classes/CTASIInputStream.m"; sourceTree = "<group>"; };
+		8ED296A89157BE3F3E54A313B648FD64 /* WebAppLauncher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebAppLauncher.h; path = core/Services/Capabilities/WebAppLauncher.h; sourceTree = "<group>"; };
+		90946D22B633B7B3266EF5BE48C157AB /* RokuService_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RokuService_Private.h; path = core/Services/RokuService_Private.h; sourceTree = "<group>"; };
+		90B59331052179B2A1DC30B6BE62C398 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataResponse.h; path = core/Frameworks/GCDWebServer/Responses/GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		91BC2A2E9FB215CE50E1543360252F91 /* AirPlayService_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AirPlayService_Private.h; path = core/Services/AirPlayService_Private.h; sourceTree = "<group>"; };
+		9304E30DBC83A790C41A21CF43813FB9 /* Pods-ScreenMirroring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenMirroring.release.xcconfig"; sourceTree = "<group>"; };
+		95BA0EFCF78757C386FE4DEFB50633D1 /* Pods-ScreenMirroring-ScreenMirroringUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenMirroring-ScreenMirroringUITests-umbrella.h"; sourceTree = "<group>"; };
+		965B8683273DF95C79060A51B9187CE3 /* LGSRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGSRWebSocket.m; path = core/Frameworks/SocketRocket/LGSRWebSocket.m; sourceTree = "<group>"; };
+		96F4B89EB418F5E2C8EF150061CFEF8A /* Pods-ScreenMirroringTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenMirroringTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98BB5E551BF9E7D9CCEDC6C28CEDD49B /* CapabilityFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CapabilityFilter.m; path = core/Discovery/CapabilityFilter.m; sourceTree = "<group>"; };
+		99C7323DFC82C10259807E4C10EA1F82 /* LGSRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGSRWebSocket.h; path = core/Frameworks/SocketRocket/LGSRWebSocket.h; sourceTree = "<group>"; };
+		99EC55C7F1327A4B7978FDFB84EEE486 /* XMLWriter+ConvenienceMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMLWriter+ConvenienceMethods.h"; path = "core/Services/Helpers/XMLWriter+ConvenienceMethods.h"; sourceTree = "<group>"; };
+		9AF90491BD923045718CB1FFD96B9A9E /* CTASIDataDecompressor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTASIDataDecompressor.m; path = "core/Frameworks/asi-http-request/Classes/CTASIDataDecompressor.m"; sourceTree = "<group>"; };
+		9CB6DCE00D84AF7BF176DBCEB19D1FE6 /* NSString+Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Common.m"; path = "core/Helpers/NSString+Common.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFFE7837858275696082A3E1D0D6887 /* ServiceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceConfig.h; path = core/Services/Config/ServiceConfig.h; sourceTree = "<group>"; };
+		9F7A9D6B40BCCB20B2D68A18872EA2F4 /* AirPlayService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AirPlayService.m; path = core/Services/AirPlayService.m; sourceTree = "<group>"; };
+		9F84C694186766E4C3CA3A71C9044651 /* ConnectionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConnectionManager.h; path = core/Services/Helpers/LGCast/ConnectionManager.h; sourceTree = "<group>"; };
+		A0B064E624697392ECA76D63C17A18F4 /* CTASIAuthenticationDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTASIAuthenticationDialog.h; path = "core/Frameworks/asi-http-request/Classes/CTASIAuthenticationDialog.h"; sourceTree = "<group>"; };
+		A1D6FF57CEF47F232543262062000BFD /* Pods-ScreenMirroring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenMirroring-dummy.m"; sourceTree = "<group>"; };
+		A204863BFFD17A6052C2AB97575F7003 /* CTXMLReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTXMLReader.h; path = core/Frameworks/XMLReader/CTXMLReader.h; sourceTree = "<group>"; };
+		A332ABB19A9BD67D0A3E8855FE29CBD5 /* ConnectSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ConnectSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		A355385F9168CF6AE29F046CFD591BB0 /* ConnectSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ConnectSDK-Info.plist"; sourceTree = "<group>"; };
+		A3B9D2FD578250AA9922CECCFAF879C9 /* CTASIHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTASIHTTPRequest.h; path = "core/Frameworks/asi-http-request/Classes/CTASIHTTPRequest.h"; sourceTree = "<group>"; };
+		A3F2424493B8CCA4C0875BC6DE3B9401 /* Pods-ScreenMirroring-ScreenMirroringUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenMirroring-ScreenMirroringUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A53B49CABDDE606F8621BD9D33A649E4 /* CTASICacheDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTASICacheDelegate.h; path = "core/Frameworks/asi-http-request/Classes/CTASICacheDelegate.h"; sourceTree = "<group>"; };
+		A829CC378E8A2CC53AEA7E5478B2C1AB /* MediaInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaInfo.h; path = core/Helpers/MediaInfo.h; sourceTree = "<group>"; };
+		A876F4FCC551A4C6B7C9E423D36E241E /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = core/Frameworks/GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
+		A9F01956862C116633011197CB588865 /* ChannelInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChannelInfo.m; path = core/Helpers/ChannelInfo.m; sourceTree = "<group>"; };
+		AD538D13C8314C7889DC0CBCA5ED576D /* DeviceServiceReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DeviceServiceReachability.m; path = core/Helpers/DeviceServiceReachability.m; sourceTree = "<group>"; };
+		B01834EEFFD183ACEEC5933D3704A99B /* Pods-ScreenMirroring */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ScreenMirroring"; path = Pods_ScreenMirroring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C06E978D429FE73D6D24919A3AA287 /* AirPlayService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AirPlayService.h; path = core/Services/AirPlayService.h; sourceTree = "<group>"; };
+		B0D6C8179A8BCF54B970842E72C31045 /* DLNAService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLNAService.h; path = core/Services/DLNAService.h; sourceTree = "<group>"; };
+		B4294E05ABB153FDF6743B5A1130391B /* SSDPDiscoveryProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSDPDiscoveryProvider.m; path = core/Discovery/Providers/SSDPDiscoveryProvider.m; sourceTree = "<group>"; };
+		B5CAD14242AD58CC5C797BD887CC3323 /* NSObject+FeatureNotSupported_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FeatureNotSupported_Private.h"; path = "core/Services/Helpers/NSObject+FeatureNotSupported_Private.h"; sourceTree = "<group>"; };
+		B7A415CC2F03AA8605D007F3A58A930A /* DIALService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIALService.h; path = core/Services/DIALService.h; sourceTree = "<group>"; };
+		B81B157C1BCDA640D2C28CA49D892691 /* BlockRunner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlockRunner.h; path = core/Helpers/BlockRunner/BlockRunner.h; sourceTree = "<group>"; };
+		B907CF7763633A6551D0C752CD2DC83D /* XMLWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMLWriter.h; path = core/Frameworks/xswi/XMLWriter.h; sourceTree = "<group>"; };
+		B977D418AA7166693F7AD4B9C0070230 /* DefaultConnectableDeviceStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DefaultConnectableDeviceStore.m; path = core/Devices/DefaultConnectableDeviceStore.m; sourceTree = "<group>"; };
+		B99813898D064FE2D49FB88C4D85E8C4 /* LaunchSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LaunchSession.h; path = core/Services/Sessions/LaunchSession.h; sourceTree = "<group>"; };
+		BA013CFD7E5DB1C4F5C4D89F2E949BE6 /* ConnectError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ConnectError.m; path = core/Helpers/ConnectError.m; sourceTree = "<group>"; };
+		BA44449A76B2FA7B597B0120396A3155 /* DispatchQueueBlockRunner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DispatchQueueBlockRunner.h; path = core/Helpers/BlockRunner/DispatchQueueBlockRunner.h; sourceTree = "<group>"; };
+		BB5A5B232B8D183B676CBECA58AAA32A /* MediaPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaPlayer.h; path = core/Services/Capabilities/MediaPlayer.h; sourceTree = "<group>"; };
+		BB5E586D674747AE6AA440B9AB01201D /* AirPlayWebAppSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AirPlayWebAppSession.m; path = core/Services/Sessions/AirPlayWebAppSession.m; sourceTree = "<group>"; };
+		BBDD2FB160B6D70A2AFEF2345713A2CF /* MediaInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MediaInfo.m; path = core/Helpers/MediaInfo.m; sourceTree = "<group>"; };
+		BCC3AE8F0D2C581434D8A7229FE4D4D3 /* Pods-ScreenMirroringTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenMirroringTests-umbrella.h"; sourceTree = "<group>"; };
+		BE73B3A2FEF388E3ECE83390554E90BF /* AirPlayServiceHTTPKeepAlive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AirPlayServiceHTTPKeepAlive.h; path = core/Services/Helpers/AirPlayServiceHTTPKeepAlive.h; sourceTree = "<group>"; };
+		BEB11AB3CE920A292589F31BE7D1677D /* DefaultConnectableDeviceStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DefaultConnectableDeviceStore.h; path = core/Devices/DefaultConnectableDeviceStore.h; sourceTree = "<group>"; };
+		C09ACC3922D6B3A63667B692BCE091E5 /* DevicePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DevicePicker.m; path = core/Devices/DevicePicker.m; sourceTree = "<group>"; };
+		C0B45F39DA5AE1D730A2DE13535AE0C8 /* DLNAHTTPServer_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLNAHTTPServer_Private.h; path = core/Services/Helpers/DLNAHTTPServer_Private.h; sourceTree = "<group>"; };
+		C1C760B5117B02F12002DE9E96B9320D /* ScreenMirroringService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ScreenMirroringService.m; path = core/Services/Helpers/LGCast/ScreenMirroringService/ScreenMirroringService.m; sourceTree = "<group>"; };
+		C1D3636CD18E86E6AD64C69A7BE264FF /* DiscoveryManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DiscoveryManager.h; path = core/Discovery/DiscoveryManager.h; sourceTree = "<group>"; };
+		C1E5862050D898B1ACCE7BA8143F315D /* AirPlayWebAppSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AirPlayWebAppSession.h; path = core/Services/Sessions/AirPlayWebAppSession.h; sourceTree = "<group>"; };
+		C283B2940A537BB71C514F44204234B8 /* AppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppInfo.h; path = core/Helpers/AppInfo.h; sourceTree = "<group>"; };
+		C429D4B16F62E380DF36DFCE12477AA2 /* ConnectSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConnectSDK.h; path = core/ConnectSDK.h; sourceTree = "<group>"; };
+		C502A0970A7FE254ED972E9830713AD7 /* SynchronousBlockRunner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SynchronousBlockRunner.h; path = core/Helpers/BlockRunner/SynchronousBlockRunner.h; sourceTree = "<group>"; };
+		C6051257941C61D91BC4481694FEA4B5 /* Pods-ScreenMirroringTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenMirroringTests-dummy.m"; sourceTree = "<group>"; };
+		C7350B54134E8944CE5C22ABA53A9978 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = core/Frameworks/GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
+		C82F7B39921511A5E2CB4713B655CD53 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = core/Frameworks/GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		C852C2575DD160F764687A77E237A1A8 /* LaunchSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LaunchSession.m; path = core/Services/Sessions/LaunchSession.m; sourceTree = "<group>"; };
+		C87C31B03FB2C4FEC1A4293031C2501E /* CTXMLReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTXMLReader.m; path = core/Frameworks/XMLReader/CTXMLReader.m; sourceTree = "<group>"; };
+		C8E1ADED9384DED15FF7CEBF25549E58 /* AirPlayServiceHTTPKeepAlive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AirPlayServiceHTTPKeepAlive.m; path = core/Services/Helpers/AirPlayServiceHTTPKeepAlive.m; sourceTree = "<group>"; };
+		C9BC563CE412AEED42161502569196E9 /* CTASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTASIHTTPRequestDelegate.h; path = "core/Frameworks/asi-http-request/Classes/CTASIHTTPRequestDelegate.h"; sourceTree = "<group>"; };
+		C9C27D0AE4027D4C54CC7C0A33A28743 /* ExternalInputInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExternalInputInfo.h; path = core/Helpers/ExternalInputInfo.h; sourceTree = "<group>"; };
+		CA7C7169741F6EF45E9E161D3124A4D8 /* ChannelInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChannelInfo.h; path = core/Helpers/ChannelInfo.h; sourceTree = "<group>"; };
+		CAEF3C09442FB4F22FFAE96ACC1FE9C8 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = core/Frameworks/GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		CBE9B1D958A8FAFB0E6B6BF02347535B /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = core/Frameworks/GCDWebServer/Responses/GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		CCC3BBCD88FF3232AE9B0230B5C566FB /* JSONObjectCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONObjectCoding.h; path = core/Helpers/JSONObjectCoding.h; sourceTree = "<group>"; };
+		CF523B7FAC41720F5C93338EA0A0274A /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = core/Frameworks/GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		D01E82B17378686C6BD82D404F14D1CF /* RemoteCameraControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RemoteCameraControl.h; path = core/Services/Capabilities/RemoteCameraControl.h; sourceTree = "<group>"; };
+		D1028493711207D59B6F173EE70BA5B0 /* RokuService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RokuService.h; path = core/Services/RokuService.h; sourceTree = "<group>"; };
+		D20BEFD29E1768A67C7ED8234684092A /* AirPlayServiceMirrored.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AirPlayServiceMirrored.h; path = core/Services/Helpers/AirPlayServiceMirrored.h; sourceTree = "<group>"; };
+		D21E6CF0735E7A779F9128516C02A530 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = core/Frameworks/GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		D22126B5A7CC569FB48D153A0E543002 /* Pods-ScreenMirroring-ScreenMirroringUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenMirroring-ScreenMirroringUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2D455329926665232E21BB2BD706D0C /* Pods-ScreenMirroringTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenMirroringTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D59FD8616A4C96C8779D35DF0033D925 /* ProgramInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ProgramInfo.m; path = core/Helpers/ProgramInfo.m; sourceTree = "<group>"; };
+		D5BFA2193810F88FC50B324FEE4EDE72 /* ConnectUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ConnectUtil.m; path = core/Helpers/ConnectUtil.m; sourceTree = "<group>"; };
+		D62F020BD73436515AFEF320EB84ECE2 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = core/Frameworks/GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		D6546DB37F68BB0FABCF681D152B4710 /* ScreenMirroringService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScreenMirroringService.h; path = core/Services/Helpers/LGCast/ScreenMirroringService/ScreenMirroringService.h; sourceTree = "<group>"; };
+		D675F49D397931419DD79C869AA44A23 /* PowerControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PowerControl.h; path = core/Services/Capabilities/PowerControl.h; sourceTree = "<group>"; };
+		D6FA68B2E7FCA96082CE910CFBCBCBCD /* ZeroConfDiscoveryProvider_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZeroConfDiscoveryProvider_Private.h; path = core/Discovery/Providers/ZeroConfDiscoveryProvider_Private.h; sourceTree = "<group>"; };
+		D74D9EFFD6159DE5B927D4FDC6F7BD8C /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = core/Frameworks/GCDWebServer/Core/GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		D77690415F6802A8446E07F4BDAD4C1B /* Launcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Launcher.h; path = core/Services/Capabilities/Launcher.h; sourceTree = "<group>"; };
+		D7D95C6B528F28BAE93C248A14CE9C8E /* Pods-ScreenMirroring-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenMirroring-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7EB62CA7B6BE39192E99B7980F7F895 /* DiscoveryManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DiscoveryManagerDelegate.h; path = core/Discovery/DiscoveryManagerDelegate.h; sourceTree = "<group>"; };
+		D8B5F00A3D64A6FE105D830E04118E24 /* WebOSWebAppSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebOSWebAppSession.h; path = core/Services/Sessions/WebOSWebAppSession.h; sourceTree = "<group>"; };
+		DAAE810B5961D25E1AA22EE52F61BF4B /* DevicePickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DevicePickerDelegate.h; path = core/Devices/DevicePickerDelegate.h; sourceTree = "<group>"; };
+		DB2AB0108970EA76335E871126223D83 /* DiscoveryProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DiscoveryProvider.m; path = core/Discovery/DiscoveryProvider.m; sourceTree = "<group>"; };
+		DBA5DB77D794449506A3709FD044C5C2 /* CTASINetworkQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTASINetworkQueue.m; path = "core/Frameworks/asi-http-request/Classes/CTASINetworkQueue.m"; sourceTree = "<group>"; };
+		DC31BB938D20EBB66EB28A7E23423406 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = core/Frameworks/GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		DC32D913EF91A6AD0C5E74FBA9D39D89 /* LGCast.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = LGCast.xcframework; path = core/Frameworks/LGCast/LGCast.xcframework; sourceTree = "<group>"; };
+		DFE289C549CF8434FCC7829BD6E03396 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = core/Frameworks/GCDWebServer/Core/GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		E1944C14629A216190569D8BD94B6C2C /* SubscriptionDeduplicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubscriptionDeduplicator.m; path = core/Helpers/SubscriptionDeduplicator.m; sourceTree = "<group>"; };
+		E1DB10F5A37AE9E922680D05CA9EA98C /* Pods-ScreenMirroringTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenMirroringTests.release.xcconfig"; sourceTree = "<group>"; };
+		E547DD9C455C21623FC112037606447B /* CTASIProgressDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTASIProgressDelegate.h; path = "core/Frameworks/asi-http-request/Classes/CTASIProgressDelegate.h"; sourceTree = "<group>"; };
+		E75FB8FDD3D3485B2842B86671B846DB /* CameraParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CameraParameter.m; path = core/Services/Helpers/LGCast/RemoteCameraService/CameraParameter.m; sourceTree = "<group>"; };
+		E8178E42C7EA0750566F3FCC49A03374 /* MediaLaunchObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MediaLaunchObject.m; path = core/Helpers/MediaLaunchObject.m; sourceTree = "<group>"; };
+		E8FAD91835D64E5E4B498819EF3BE3F6 /* CameraSinkCapability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CameraSinkCapability.h; path = core/Services/Helpers/LGCast/RemoteCameraService/CameraSinkCapability.h; sourceTree = "<group>"; };
+		E96A537BBE2D38AB21CB2BFC0B7F005A /* ConnectError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConnectError.h; path = core/Helpers/ConnectError.h; sourceTree = "<group>"; };
+		EA533DDB7C72A285478F7968B05A8BBE /* Pods-ScreenMirroring-ScreenMirroringUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenMirroring-ScreenMirroringUITests-Info.plist"; sourceTree = "<group>"; };
+		EA58E7AB7174019AA43F4E4E7CB3A9D7 /* SSDPDiscoveryProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSDPDiscoveryProvider.h; path = core/Discovery/Providers/SSDPDiscoveryProvider.h; sourceTree = "<group>"; };
+		EBECA8C76246EE24C8BAD6EB0234C722 /* ServiceDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ServiceDescription.m; path = core/Services/Config/ServiceDescription.m; sourceTree = "<group>"; };
+		EC49BFAE999D3A4A121C66DFB6DB3C2F /* RemoteCameraService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RemoteCameraService.m; path = core/Services/Helpers/LGCast/RemoteCameraService/RemoteCameraService.m; sourceTree = "<group>"; };
+		ED4B07D8281C14B96A59144BA967D17D /* MobileCapability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileCapability.h; path = core/Services/Helpers/LGCast/Device/MobileCapability.h; sourceTree = "<group>"; };
+		ED63091C87F9184B3726E3C2E3155A39 /* CTASIDownloadCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTASIDownloadCache.m; path = "core/Frameworks/asi-http-request/Classes/CTASIDownloadCache.m"; sourceTree = "<group>"; };
+		EE0DF23103C7F0E31BEDCE3A9DB90DB4 /* MouseControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MouseControl.h; path = core/Services/Capabilities/MouseControl.h; sourceTree = "<group>"; };
+		EE494BA05A1B0BD40F2F387044EF1B0C /* TVControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TVControl.h; path = core/Services/Capabilities/TVControl.h; sourceTree = "<group>"; };
+		EED812D7E9DDC33CD49A9D52C2E6EF40 /* VolumeControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VolumeControl.h; path = core/Services/Capabilities/VolumeControl.h; sourceTree = "<group>"; };
+		F0C9EE6D3F96C79669A0C263761FD4FD /* CTASIInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTASIInputStream.h; path = "core/Frameworks/asi-http-request/Classes/CTASIInputStream.h"; sourceTree = "<group>"; };
+		F0E31DCAE9FDDCD4FA93C4C17F8827D2 /* NSString+Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Common.h"; path = "core/Helpers/NSString+Common.h"; sourceTree = "<group>"; };
+		F1D36FC0BFA20BD4864C2B4BC9244F9A /* ServiceConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ServiceConfig.m; path = core/Services/Config/ServiceConfig.m; sourceTree = "<group>"; };
+		F2A49607914942D4CFEE1BAFEEBA8807 /* NSDictionary+KeyPredicateSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+KeyPredicateSearch.h"; path = "core/Helpers/NSDictionary+KeyPredicateSearch.h"; sourceTree = "<group>"; };
+		F33C53D3A2CB57A2EE22703A102F0FE8 /* CTGuid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTGuid.m; path = "core/Frameworks/objc-guid/CTGuid.m"; sourceTree = "<group>"; };
+		F36370FFDD593B9D60564D8C260B0768 /* DiscoveryProviderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DiscoveryProviderDelegate.h; path = core/Discovery/DiscoveryProviderDelegate.h; sourceTree = "<group>"; };
+		F4231F91F3D36277BFC69CB18FF0F2E8 /* Pods-ScreenMirroringTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenMirroringTests.modulemap"; sourceTree = "<group>"; };
+		F4BA8A0F812E32D3F81B07CD4598C273 /* CapabilityConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CapabilityConstants.m; path = core/Services/Capabilities/CapabilityConstants.m; sourceTree = "<group>"; };
+		F5B050FAFAB6060B3C672CFF7B4707E4 /* Pods-ScreenMirroring-ScreenMirroringUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenMirroring-ScreenMirroringUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5E0C2E4826688751F80D1BBEC8AF471 /* WebOSTVServiceSocketClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebOSTVServiceSocketClient.m; path = core/Services/Helpers/WebOSTVServiceSocketClient.m; sourceTree = "<group>"; };
+		F6A63A4C5FB94546AFCF8B1901630974 /* ServiceCommandDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceCommandDelegate.h; path = core/Services/Commands/ServiceCommandDelegate.h; sourceTree = "<group>"; };
+		F89128A5A2094600FE755A2FCE2FFBC1 /* RokuService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RokuService.m; path = core/Services/RokuService.m; sourceTree = "<group>"; };
+		F944661C1E45EC5C6012FD4A22577DCA /* ConnectSDKDefaultPlatforms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ConnectSDKDefaultPlatforms.h; sourceTree = "<group>"; };
+		F988460F47A36BCC61BCCAAC98E52CEE /* AirPlayServiceMirrored.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AirPlayServiceMirrored.m; path = core/Services/Helpers/AirPlayServiceMirrored.m; sourceTree = "<group>"; };
+		FCE7558F81E38DD60AAE004D14143A91 /* DLNAHTTPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLNAHTTPServer.m; path = core/Services/Helpers/DLNAHTTPServer.m; sourceTree = "<group>"; };
+		FCF687E2BC5C3196C8F64B3FE0D42558 /* CTASINetworkQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTASINetworkQueue.h; path = "core/Frameworks/asi-http-request/Classes/CTASINetworkQueue.h"; sourceTree = "<group>"; };
+		FD7EA3DBCE1B1BAD2430827DAD386E25 /* DiscoveryManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DiscoveryManager.m; path = core/Discovery/DiscoveryManager.m; sourceTree = "<group>"; };
+		FE421E316774B6C6381B31D7D9800477 /* ImageInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ImageInfo.m; path = core/Helpers/ImageInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EBAC7CA6766504C5D9B44A8C53BCDF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C1750B688FB23EA1E9A9163B2E0DDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFFAAB916C8C5927AB66F7256D6E4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147A09FACA03322B94743690B1BF4B98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9675E8E13B70B88C1C3BB8D9E2B9CA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62D922CA890B7A572255D7FD3EE0088 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1C50FE74B536CF4A7143848D28F047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2561AF85B94F2CAE3896CC0BF4A513DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A013AF5E9C584F1C8539387325BB64F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B0C06E978D429FE73D6D24919A3AA287 /* AirPlayService.h */,
+				9F7A9D6B40BCCB20B2D68A18872EA2F4 /* AirPlayService.m */,
+				91BC2A2E9FB215CE50E1543360252F91 /* AirPlayService_Private.h */,
+				181DFCB1D7C2F359DD01F5CC4AA3DAA9 /* AirPlayServiceHTTP.h */,
+				19DF3A2CEF4DA8DA1A5C3FF6ADEF0592 /* AirPlayServiceHTTP.m */,
+				1BB9D715F86AE1102939FEC76E1B7AB1 /* AirPlayServiceHTTP_Private.h */,
+				BE73B3A2FEF388E3ECE83390554E90BF /* AirPlayServiceHTTPKeepAlive.h */,
+				C8E1ADED9384DED15FF7CEBF25549E58 /* AirPlayServiceHTTPKeepAlive.m */,
+				D20BEFD29E1768A67C7ED8234684092A /* AirPlayServiceMirrored.h */,
+				F988460F47A36BCC61BCCAAC98E52CEE /* AirPlayServiceMirrored.m */,
+				C1E5862050D898B1ACCE7BA8143F315D /* AirPlayWebAppSession.h */,
+				BB5E586D674747AE6AA440B9AB01201D /* AirPlayWebAppSession.m */,
+				C283B2940A537BB71C514F44204234B8 /* AppInfo.h */,
+				6391D7D255C0B46EF1D974BD1B5F5C59 /* AppInfo.m */,
+				37F63E2E11F5DF9FEBA29266AAEE74D6 /* AppStateChangeNotifier.h */,
+				238A617D95AB355C91D4B1D76F52B0A1 /* AppStateChangeNotifier.m */,
+				B81B157C1BCDA640D2C28CA49D892691 /* BlockRunner.h */,
+				7A7BB674516A05DC52D7B9D1DA405E88 /* CameraParameter.h */,
+				E75FB8FDD3D3485B2842B86671B846DB /* CameraParameter.m */,
+				E8FAD91835D64E5E4B498819EF3BE3F6 /* CameraSinkCapability.h */,
+				6BB5981126F716B825F47437E2DB7170 /* CameraSinkCapability.m */,
+				3860D54FC7E2BE69399FA5482DD89217 /* CameraSourceCapability.h */,
+				1C20A713A2B6920B8D9AA506D1C917C5 /* CameraSourceCapability.m */,
+				4033A2134C15291E4F51655498A1DC6C /* Capability.h */,
+				F4BA8A0F812E32D3F81B07CD4598C273 /* CapabilityConstants.m */,
+				7A62603CFEC0BCD3D1D05FD99456509A /* CapabilityFilter.h */,
+				98BB5E551BF9E7D9CCEDC6C28CEDD49B /* CapabilityFilter.m */,
+				CA7C7169741F6EF45E9E161D3124A4D8 /* ChannelInfo.h */,
+				A9F01956862C116633011197CB588865 /* ChannelInfo.m */,
+				63A9A35ADEDAC65A8F17C4513E392875 /* CommonMacros.h */,
+				10425C639877C784FB06B94E1D8233F9 /* ConnectableDevice.h */,
+				2D201CB3DDAEE2E1A33831833BA757BD /* ConnectableDevice.m */,
+				58F787A4F1B23A59653453D6B8D171B5 /* ConnectableDeviceDelegate.h */,
+				4952612D65096C97BA4EE5BD6E4A9D41 /* ConnectableDeviceStore.h */,
+				E96A537BBE2D38AB21CB2BFC0B7F005A /* ConnectError.h */,
+				BA013CFD7E5DB1C4F5C4D89F2E949BE6 /* ConnectError.m */,
+				9F84C694186766E4C3CA3A71C9044651 /* ConnectionManager.h */,
+				67BF08F435303CB4317C9129C88A9342 /* ConnectionManager.m */,
+				C429D4B16F62E380DF36DFCE12477AA2 /* ConnectSDK.h */,
+				F944661C1E45EC5C6012FD4A22577DCA /* ConnectSDKDefaultPlatforms.h */,
+				7A10F847329DB168E26BA78B3B889375 /* ConnectUtil.h */,
+				D5BFA2193810F88FC50B324FEE4EDE72 /* ConnectUtil.m */,
+				658D9A80B5A48DF1EB623500F01627C0 /* CTGuid.h */,
+				F33C53D3A2CB57A2EE22703A102F0FE8 /* CTGuid.m */,
+				A204863BFFD17A6052C2AB97575F7003 /* CTXMLReader.h */,
+				C87C31B03FB2C4FEC1A4293031C2501E /* CTXMLReader.m */,
+				BEB11AB3CE920A292589F31BE7D1677D /* DefaultConnectableDeviceStore.h */,
+				B977D418AA7166693F7AD4B9C0070230 /* DefaultConnectableDeviceStore.m */,
+				523750B571577A7AE33042766F04ED85 /* DevicePicker.h */,
+				C09ACC3922D6B3A63667B692BCE091E5 /* DevicePicker.m */,
+				DAAE810B5961D25E1AA22EE52F61BF4B /* DevicePickerDelegate.h */,
+				3759F795C5A3FCC0229117DD6558695D /* DeviceService.h */,
+				0F7B378B248025A2C37791796394C49E /* DeviceService.m */,
+				19B616A13240F349B89D79DE90D3625B /* DeviceServiceDelegate.h */,
+				617C0F093D361BCDB990030FB53B19EA /* DeviceServiceReachability.h */,
+				AD538D13C8314C7889DC0CBCA5ED576D /* DeviceServiceReachability.m */,
+				B7A415CC2F03AA8605D007F3A58A930A /* DIALService.h */,
+				30EB80FB5FB86ECD8830D949619DD9C4 /* DIALService.m */,
+				C1D3636CD18E86E6AD64C69A7BE264FF /* DiscoveryManager.h */,
+				FD7EA3DBCE1B1BAD2430827DAD386E25 /* DiscoveryManager.m */,
+				3A34BEA1E7F42EB8A64197E335BE6A97 /* DiscoveryManager_Private.h */,
+				D7EB62CA7B6BE39192E99B7980F7F895 /* DiscoveryManagerDelegate.h */,
+				3CD83B874844B10FC729AD2EA374C784 /* DiscoveryProvider.h */,
+				DB2AB0108970EA76335E871126223D83 /* DiscoveryProvider.m */,
+				F36370FFDD593B9D60564D8C260B0768 /* DiscoveryProviderDelegate.h */,
+				BA44449A76B2FA7B597B0120396A3155 /* DispatchQueueBlockRunner.h */,
+				2364B7C9224B4651AF92F8E6E17B14D1 /* DispatchQueueBlockRunner.m */,
+				415D186A25AE5CC9A57E473861BF2EAA /* DLNAHTTPServer.h */,
+				FCE7558F81E38DD60AAE004D14143A91 /* DLNAHTTPServer.m */,
+				C0B45F39DA5AE1D730A2DE13535AE0C8 /* DLNAHTTPServer_Private.h */,
+				B0D6C8179A8BCF54B970842E72C31045 /* DLNAService.h */,
+				100DBAAD4560E63A156C176BEB7AFD25 /* DLNAService.m */,
+				376B761E4805857CDA1B9CD64DC1BFF7 /* DLNAService_Private.h */,
+				1F965E9B402F8C93C3212CA278BF2908 /* ExternalInputControl.h */,
+				C9C27D0AE4027D4C54CC7C0A33A28743 /* ExternalInputInfo.h */,
+				6684BB0BD781ACA4095A4D47FAF70745 /* ExternalInputInfo.m */,
+				18C7A5FF8006608AB68C6FB6A96325AB /* GCDWebServer.h */,
+				04837F3DF6F211C99D56ABEEAEB7FCD1 /* GCDWebServer.m */,
+				17182F1D6E157523DCCCE0300A438BFD /* GCDWebServerConnection.h */,
+				1120AA754AFBA6BB23884B7CAE655D40 /* GCDWebServerConnection.m */,
+				1FBC8638AC7FB5D9B28993D66EC28433 /* GCDWebServerDataRequest.h */,
+				5DC99528F73284E54A051E4660FA2628 /* GCDWebServerDataRequest.m */,
+				90B59331052179B2A1DC30B6BE62C398 /* GCDWebServerDataResponse.h */,
+				790873581B0AAA386FAD569309B0AF39 /* GCDWebServerDataResponse.m */,
+				CAEF3C09442FB4F22FFAE96ACC1FE9C8 /* GCDWebServerErrorResponse.h */,
+				0003ABD3624547654C3790D500AB6AD5 /* GCDWebServerErrorResponse.m */,
+				459F6B775B8D63EEEBF4B9904E57593B /* GCDWebServerFileRequest.h */,
+				D21E6CF0735E7A779F9128516C02A530 /* GCDWebServerFileRequest.m */,
+				CBE9B1D958A8FAFB0E6B6BF02347535B /* GCDWebServerFileResponse.h */,
+				2883A50F5CF76337CCB132A6F5178E5A /* GCDWebServerFileResponse.m */,
+				CF523B7FAC41720F5C93338EA0A0274A /* GCDWebServerFunctions.h */,
+				D74D9EFFD6159DE5B927D4FDC6F7BD8C /* GCDWebServerFunctions.m */,
+				D62F020BD73436515AFEF320EB84ECE2 /* GCDWebServerHTTPStatusCodes.h */,
+				C82F7B39921511A5E2CB4713B655CD53 /* GCDWebServerMultiPartFormRequest.h */,
+				6F34DB4126CD2E1970DE8F145E0C6F95 /* GCDWebServerMultiPartFormRequest.m */,
+				DFE289C549CF8434FCC7829BD6E03396 /* GCDWebServerPrivate.h */,
+				3F8968A836E728BBBFD3135537E6890F /* GCDWebServerRequest.h */,
+				1906DA2E5878E293DF1862FC14C8C246 /* GCDWebServerRequest.m */,
+				C7350B54134E8944CE5C22ABA53A9978 /* GCDWebServerResponse.h */,
+				A876F4FCC551A4C6B7C9E423D36E241E /* GCDWebServerResponse.m */,
+				DC31BB938D20EBB66EB28A7E23423406 /* GCDWebServerStreamedResponse.h */,
+				2E72B98FBB5A3B34745E2A658D85CE3A /* GCDWebServerStreamedResponse.m */,
+				22BC1599CC8139141F5F99B983A324D1 /* GCDWebServerURLEncodedFormRequest.h */,
+				3E34411D047830E629F051D41663D048 /* GCDWebServerURLEncodedFormRequest.m */,
+				7807CA1F8279E191BA56ADCEC08603D5 /* ImageInfo.h */,
+				FE421E316774B6C6381B31D7D9800477 /* ImageInfo.m */,
+				CCC3BBCD88FF3232AE9B0230B5C566FB /* JSONObjectCoding.h */,
+				44DC15810D070375476EF75A90B78D79 /* KeyControl.h */,
+				D77690415F6802A8446E07F4BDAD4C1B /* Launcher.h */,
+				B99813898D064FE2D49FB88C4D85E8C4 /* LaunchSession.h */,
+				C852C2575DD160F764687A77E237A1A8 /* LaunchSession.m */,
+				99C7323DFC82C10259807E4C10EA1F82 /* LGSRWebSocket.h */,
+				965B8683273DF95C79060A51B9187CE3 /* LGSRWebSocket.m */,
+				5A32F6B3FE18EE3CB0898B79400512B2 /* MediaControl.h */,
+				A829CC378E8A2CC53AEA7E5478B2C1AB /* MediaInfo.h */,
+				BBDD2FB160B6D70A2AFEF2345713A2CF /* MediaInfo.m */,
+				23F4BAB35960C8CED261A4D7A492FF01 /* MediaLaunchObject.h */,
+				E8178E42C7EA0750566F3FCC49A03374 /* MediaLaunchObject.m */,
+				BB5A5B232B8D183B676CBECA58AAA32A /* MediaPlayer.h */,
+				13B7E8B7C87A6C6FCFE6B9C4FA417D7C /* MirroringSinkCapability.h */,
+				2ED6C57BBE15023C89AF6A2093A68C3C /* MirroringSinkCapability.m */,
+				12EDE5DA6CA9E1E6DD53917C26DB9854 /* MirroringSourceCapability.h */,
+				43A57E9B9D78E81270BB735D08A7AB17 /* MirroringSourceCapability.m */,
+				ED4B07D8281C14B96A59144BA967D17D /* MobileCapability.h */,
+				67E95F20457C5C863ACC8BC77CB73C5C /* MobileCapability.m */,
+				EE0DF23103C7F0E31BEDCE3A9DB90DB4 /* MouseControl.h */,
+				799FEFB8375A0671C9F7FB4BEDFF8CE5 /* NetcastTVService.h */,
+				31FC04D856227C671CAA421A3EAD95F6 /* NetcastTVService.m */,
+				84591C1151E089F4CE091105105487F1 /* NetcastTVService_Private.h */,
+				4BD51097291A0151013AF7C2B16842AA /* NetcastTVServiceConfig.h */,
+				6C9EE58B0CA4BA4366F31C99511743DC /* NetcastTVServiceConfig.m */,
+				F2A49607914942D4CFEE1BAFEEBA8807 /* NSDictionary+KeyPredicateSearch.h */,
+				41FD5255062EC0CFC873C34D464633D2 /* NSDictionary+KeyPredicateSearch.m */,
+				823FF79B9B1EE4C80979F877F9F4886A /* NSMutableDictionary+NilSafe.h */,
+				4E4023147A70A6F6BA7A174F419F3F44 /* NSMutableDictionary+NilSafe.m */,
+				B5CAD14242AD58CC5C797BD887CC3323 /* NSObject+FeatureNotSupported_Private.h */,
+				59EE5EBE500C25A9076A22BE1DAFA314 /* NSObject+FeatureNotSupported_Private.m */,
+				F0E31DCAE9FDDCD4FA93C4C17F8827D2 /* NSString+Common.h */,
+				9CB6DCE00D84AF7BF176DBCEB19D1FE6 /* NSString+Common.m */,
+				43C138E5731EA580B7FCB4FF9670DEF8 /* PlayListControl.h */,
+				D675F49D397931419DD79C869AA44A23 /* PowerControl.h */,
+				011DE33F24674D70F001E16D2838D339 /* ProgramInfo.h */,
+				D59FD8616A4C96C8779D35DF0033D925 /* ProgramInfo.m */,
+				D01E82B17378686C6BD82D404F14D1CF /* RemoteCameraControl.h */,
+				8B93833292CD9DCC2EDD981F9CDA05CA /* RemoteCameraService.h */,
+				EC49BFAE999D3A4A121C66DFB6DB3C2F /* RemoteCameraService.m */,
+				D1028493711207D59B6F173EE70BA5B0 /* RokuService.h */,
+				F89128A5A2094600FE755A2FCE2FFBC1 /* RokuService.m */,
+				90946D22B633B7B3266EF5BE48C157AB /* RokuService_Private.h */,
+				0F2C50B18B0F1F68DC1DA477930C5C38 /* ScreenMirroringControl.h */,
+				D6546DB37F68BB0FABCF681D152B4710 /* ScreenMirroringService.h */,
+				C1C760B5117B02F12002DE9E96B9320D /* ScreenMirroringService.m */,
+				44168EAAAFE481C0775E6E9ABC815076 /* ServiceAsyncCommand.h */,
+				3C44480395958B3595D957DECC5500A8 /* ServiceAsyncCommand.m */,
+				794EEF8EA12FDB5DC1AE42671B9E6DD0 /* ServiceCommand.h */,
+				8000615858FE3059C7C4B27B4D42FF40 /* ServiceCommand.m */,
+				F6A63A4C5FB94546AFCF8B1901630974 /* ServiceCommandDelegate.h */,
+				9DFFE7837858275696082A3E1D0D6887 /* ServiceConfig.h */,
+				F1D36FC0BFA20BD4864C2B4BC9244F9A /* ServiceConfig.m */,
+				745059AC1C75EA331892D6F52CACE1ED /* ServiceConfigDelegate.h */,
+				0B1375134B73D39F92E2BF857236AED5 /* ServiceDescription.h */,
+				EBECA8C76246EE24C8BAD6EB0234C722 /* ServiceDescription.m */,
+				6998D51054B621931301FE7ADAB6C145 /* ServiceSubscription.h */,
+				0012873457E6432609F16082DAAA786E /* ServiceSubscription.m */,
+				EA58E7AB7174019AA43F4E4E7CB3A9D7 /* SSDPDiscoveryProvider.h */,
+				B4294E05ABB153FDF6743B5A1130391B /* SSDPDiscoveryProvider.m */,
+				77CFDB7856222449D3F1E926140F9028 /* SSDPDiscoveryProvider_Private.h */,
+				7E810990BE1AB5013939FA0CE5550821 /* SSDPSocketListener.h */,
+				55ED50DDFD93562FCEDB7CB4A7F5B1BB /* SSDPSocketListener.m */,
+				7463A2B49D318CBC86FEDBEFB67DD19E /* SubscriptionDeduplicator.h */,
+				E1944C14629A216190569D8BD94B6C2C /* SubscriptionDeduplicator.m */,
+				58229CC50CF1FE18AAE0077225770125 /* SubtitleInfo.h */,
+				834B0B05E7CE02FE144B2D582FD0056E /* SubtitleInfo.m */,
+				C502A0970A7FE254ED972E9830713AD7 /* SynchronousBlockRunner.h */,
+				602D3B0C4588CD205D1A748CC485A4BC /* SynchronousBlockRunner.m */,
+				2DE51B622C982B10A9FCEB5416A475BA /* TextInputControl.h */,
+				0C2BF50B4277EFFF0BC00C7E9A85053C /* TextInputStatusInfo.h */,
+				6AF34E70A154B8F2AB4AD7DE0D0619A8 /* TextInputStatusInfo.m */,
+				0DF3EABDBA2FD65CDA5C970B1C05B6DA /* ToastControl.h */,
+				EE494BA05A1B0BD40F2F387044EF1B0C /* TVControl.h */,
+				EED812D7E9DDC33CD49A9D52C2E6EF40 /* VolumeControl.h */,
+				8ED296A89157BE3F3E54A313B648FD64 /* WebAppLauncher.h */,
+				8A0CA5111505AADEFD7F493A828D6793 /* WebAppSession.h */,
+				5AEEDEEEE3AC916244704E76F6258E1C /* WebAppSession.m */,
+				47CA04D23E08C12877977E0EE118B2A3 /* WebAppSessionDelegate.h */,
+				7809D780BAEFE13BA9615B9E144C6A09 /* WebOSTVService.h */,
+				7D71E3AAB38ADD462C8ABBC8AF598038 /* WebOSTVService.m */,
+				184C7815AE059C6C458B3978D131B2C6 /* WebOSTVService+LGCast.h */,
+				332EF122C72C0C899A79BC98E3A98428 /* WebOSTVService+LGCast.m */,
+				4739BDC0265B4A9BBA7671F909118A9F /* WebOSTVService_Private.h */,
+				0D98CBECA3DAE6DF45B2840B816A31FB /* WebOSTVServiceConfig.h */,
+				1DE19B10EB2060E37A0EC125CDD200CB /* WebOSTVServiceConfig.m */,
+				15516201BE4DD0531B5678F3DE2FE9B0 /* WebOSTVServiceMouse.h */,
+				84379109E4E15DAEB3A17E237CE72125 /* WebOSTVServiceMouse.m */,
+				1D8152F42F3275A0E9E197F2C6E769E2 /* WebOSTVServiceSocketClient.h */,
+				F5E0C2E4826688751F80D1BBEC8AF471 /* WebOSTVServiceSocketClient.m */,
+				57057D0878677A1E3505029504BAF8C4 /* WebOSTVServiceSocketClient_Private.h */,
+				D8B5F00A3D64A6FE105D830E04118E24 /* WebOSWebAppSession.h */,
+				88E516D2D9BBDC61130400A3B264E3D9 /* WebOSWebAppSession.m */,
+				4618A5052E896978A5ADE4DC5C3D0480 /* WebOSWebAppSession_Private.h */,
+				B907CF7763633A6551D0C752CD2DC83D /* XMLWriter.h */,
+				82ACF73AD549B7B041567E3DE142767D /* XMLWriter.m */,
+				99EC55C7F1327A4B7978FDFB84EEE486 /* XMLWriter+ConvenienceMethods.h */,
+				69A19BE0A35DA3B3C97961A762B56CB6 /* XMLWriter+ConvenienceMethods.m */,
+				5C2AAC575F95CF9DDB8E58B05415B69C /* ZeroConfDiscoveryProvider.h */,
+				40AC745462B9F4B177045C498072CF94 /* ZeroConfDiscoveryProvider.m */,
+				D6FA68B2E7FCA96082CE910CFBCBCBCD /* ZeroConfDiscoveryProvider_Private.h */,
+				9E8C81571D0F3505122E05D1F9017288 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		202635399E65F174A6FD9C2BE9AFA658 /* Pods-ScreenMirroring-ScreenMirroringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57FE1611CE4419A7CECCB880778709E3 /* Pods-ScreenMirroring-ScreenMirroringUITests.modulemap */,
+				0438A0BC7815DEEA0143D23D190B8168 /* Pods-ScreenMirroring-ScreenMirroringUITests-acknowledgements.markdown */,
+				4A6D054DC5868832157E54045EEEE32D /* Pods-ScreenMirroring-ScreenMirroringUITests-acknowledgements.plist */,
+				5BA4BFF090EE1919752993A032C76FEC /* Pods-ScreenMirroring-ScreenMirroringUITests-dummy.m */,
+				A3F2424493B8CCA4C0875BC6DE3B9401 /* Pods-ScreenMirroring-ScreenMirroringUITests-frameworks.sh */,
+				EA533DDB7C72A285478F7968B05A8BBE /* Pods-ScreenMirroring-ScreenMirroringUITests-Info.plist */,
+				95BA0EFCF78757C386FE4DEFB50633D1 /* Pods-ScreenMirroring-ScreenMirroringUITests-umbrella.h */,
+				D22126B5A7CC569FB48D153A0E543002 /* Pods-ScreenMirroring-ScreenMirroringUITests.debug.xcconfig */,
+				F5B050FAFAB6060B3C672CFF7B4707E4 /* Pods-ScreenMirroring-ScreenMirroringUITests.release.xcconfig */,
+			);
+			name = "Pods-ScreenMirroring-ScreenMirroringUITests";
+			path = "Target Support Files/Pods-ScreenMirroring-ScreenMirroringUITests";
+			sourceTree = "<group>";
+		};
+		3A76E3C2A4FA819939F4F51E00BAC308 /* ConnectSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1A013AF5E9C584F1C8539387325BB64F /* Core */,
+				FC10094EEB9E2C0A5781F01F77124333 /* no-arc */,
+				C5ED350C12A2700F5F8C0C09D4327FF7 /* Support Files */,
+			);
+			name = ConnectSDK;
+			path = ConnectSDK;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		764066E0E25AB3B8260312E109A2277C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8515483853B4CB42A20702D429AB4F7A /* Pods-ScreenMirroring */,
+				202635399E65F174A6FD9C2BE9AFA658 /* Pods-ScreenMirroring-ScreenMirroringUITests */,
+				CEC6FF2293D23ED8190AD778D5C1CF93 /* Pods-ScreenMirroringTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8515483853B4CB42A20702D429AB4F7A /* Pods-ScreenMirroring */ = {
+			isa = PBXGroup;
+			children = (
+				1061AD5B336B3A0DE1A2AB62A97C0AB3 /* Pods-ScreenMirroring.modulemap */,
+				742367FBE8D12DDFB89E41AEC7BF80FB /* Pods-ScreenMirroring-acknowledgements.markdown */,
+				D7D95C6B528F28BAE93C248A14CE9C8E /* Pods-ScreenMirroring-acknowledgements.plist */,
+				A1D6FF57CEF47F232543262062000BFD /* Pods-ScreenMirroring-dummy.m */,
+				506F13033D097B6BFE2CC0C2826ABACD /* Pods-ScreenMirroring-frameworks.sh */,
+				41B34AEEAE6ADD783A33DE64ABAA4FA2 /* Pods-ScreenMirroring-Info.plist */,
+				53B138FCFE5DAB038F2FFE3B08BCEBC3 /* Pods-ScreenMirroring-umbrella.h */,
+				8813A023F6A606C3C2D94E6A53D51DC1 /* Pods-ScreenMirroring.debug.xcconfig */,
+				9304E30DBC83A790C41A21CF43813FB9 /* Pods-ScreenMirroring.release.xcconfig */,
+			);
+			name = "Pods-ScreenMirroring";
+			path = "Target Support Files/Pods-ScreenMirroring";
+			sourceTree = "<group>";
+		};
+		9E8C81571D0F3505122E05D1F9017288 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53B2047294ABD249BD013C43B4ACD635 /* GStreamerForLGCast.xcframework */,
+				DC32D913EF91A6AD0C5E74FBA9D39D89 /* LGCast.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5ED350C12A2700F5F8C0C09D4327FF7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				228A524B6D3641F5CE7B179384E8CEF5 /* ConnectSDK.modulemap */,
+				88B8302C981ADBA447368828226700FA /* ConnectSDK-dummy.m */,
+				A355385F9168CF6AE29F046CFD591BB0 /* ConnectSDK-Info.plist */,
+				663124EB5B1A9E64B9C5B8AF7F6C2233 /* ConnectSDK-prefix.pch */,
+				68B1AB98EC6B196751A751FBDC838C9A /* ConnectSDK-umbrella.h */,
+				A332ABB19A9BD67D0A3E8855FE29CBD5 /* ConnectSDK-xcframeworks.sh */,
+				65C1C1FDD3C5603A63B54C17EE6141BD /* ConnectSDK.debug.xcconfig */,
+				5B5287573507297811F997AFC753D071 /* ConnectSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ConnectSDK";
+			sourceTree = "<group>";
+		};
+		CEC6FF2293D23ED8190AD778D5C1CF93 /* Pods-ScreenMirroringTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4231F91F3D36277BFC69CB18FF0F2E8 /* Pods-ScreenMirroringTests.modulemap */,
+				96F4B89EB418F5E2C8EF150061CFEF8A /* Pods-ScreenMirroringTests-acknowledgements.markdown */,
+				D2D455329926665232E21BB2BD706D0C /* Pods-ScreenMirroringTests-acknowledgements.plist */,
+				C6051257941C61D91BC4481694FEA4B5 /* Pods-ScreenMirroringTests-dummy.m */,
+				0E1E8036A624655D47CA91FDAF20E9BD /* Pods-ScreenMirroringTests-Info.plist */,
+				BCC3AE8F0D2C581434D8A7229FE4D4D3 /* Pods-ScreenMirroringTests-umbrella.h */,
+				30268A79BDB3CD024819C38B5438BF6B /* Pods-ScreenMirroringTests.debug.xcconfig */,
+				E1DB10F5A37AE9E922680D05CA9EA98C /* Pods-ScreenMirroringTests.release.xcconfig */,
+			);
+			name = "Pods-ScreenMirroringTests";
+			path = "Target Support Files/Pods-ScreenMirroringTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FEF4DF577B48D7B9EBA8397301782B69 /* Pods */,
+				D06974DA791A61C8BE76D72CB1C8457B /* Products */,
+				764066E0E25AB3B8260312E109A2277C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D06974DA791A61C8BE76D72CB1C8457B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1854A2799FFC2ACB3A49207B534B4591 /* ConnectSDK */,
+				B01834EEFFD183ACEEC5933D3704A99B /* Pods-ScreenMirroring */,
+				15F175D6BF83922A50438BA1D6B7F521 /* Pods-ScreenMirroring-ScreenMirroringUITests */,
+				480D806B5A7657F2A4522DA00077DB1F /* Pods-ScreenMirroringTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC10094EEB9E2C0A5781F01F77124333 /* no-arc */ = {
+			isa = PBXGroup;
+			children = (
+				A0B064E624697392ECA76D63C17A18F4 /* CTASIAuthenticationDialog.h */,
+				7D87F3374E7E04F2366A9A2886AD2702 /* CTASIAuthenticationDialog.m */,
+				A53B49CABDDE606F8621BD9D33A649E4 /* CTASICacheDelegate.h */,
+				2EAFE273A5A4B95299208399436D2AF1 /* CTASIDataCompressor.h */,
+				4E023C9B2B1571CAC5B44439067AE0BA /* CTASIDataCompressor.m */,
+				315D2B2006290079BF163306E2583E2E /* CTASIDataDecompressor.h */,
+				9AF90491BD923045718CB1FFD96B9A9E /* CTASIDataDecompressor.m */,
+				42E6A742A5F724E4B0AC45265DBB8EAD /* CTASIDownloadCache.h */,
+				ED63091C87F9184B3726E3C2E3155A39 /* CTASIDownloadCache.m */,
+				29D804F48A3D68D24106C3EAB85EF98F /* CTASIFormDataRequest.h */,
+				394A6C5C5E21D2A467C9E16CF9C37FD1 /* CTASIFormDataRequest.m */,
+				A3B9D2FD578250AA9922CECCFAF879C9 /* CTASIHTTPRequest.h */,
+				2C4CF39E197C798BCCCD5AF23006A681 /* CTASIHTTPRequest.m */,
+				16A28B42953CFD4FAFAD39B1BE6168BF /* CTASIHTTPRequestConfig.h */,
+				C9BC563CE412AEED42161502569196E9 /* CTASIHTTPRequestDelegate.h */,
+				F0C9EE6D3F96C79669A0C263761FD4FD /* CTASIInputStream.h */,
+				8D1B80CD26CC76B058A436F2B83EC2DC /* CTASIInputStream.m */,
+				FCF687E2BC5C3196C8F64B3FE0D42558 /* CTASINetworkQueue.h */,
+				DBA5DB77D794449506A3709FD044C5C2 /* CTASINetworkQueue.m */,
+				E547DD9C455C21623FC112037606447B /* CTASIProgressDelegate.h */,
+				65D19269DF53AA1EF66C75DE3EE3E05D /* CTReachability.h */,
+				1F53C6EDA439162DD12C170FE2663573 /* CTReachability.m */,
+			);
+			name = "no-arc";
+			sourceTree = "<group>";
+		};
+		FEF4DF577B48D7B9EBA8397301782B69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A76E3C2A4FA819939F4F51E00BAC308 /* ConnectSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CE2657C98EDBC56F4833D0F83DCA773 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194CF788141D1E771485F1B6C10F58B0 /* Pods-ScreenMirroring-ScreenMirroringUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCD9EF18F50804D36338476DC87686C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AB2CFF31C46BF04FBE0BCCBF1F75E6 /* Pods-ScreenMirroring-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CC48CFDB67D0E32EA9E69DA7163FB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B433ADC4FF1FF332F92CEFBD02C14A /* Pods-ScreenMirroringTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31A81634C6BE7A3D20867966E481448 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED9A777E1DABCEDD020AB5B3431B413 /* AirPlayService.h in Headers */,
+				6C58DC63A72F8EE41F01ABD18E9F2CC6 /* AirPlayService_Private.h in Headers */,
+				F4D4FE4E529DB9C2A51556070476EA16 /* AirPlayServiceHTTP.h in Headers */,
+				2138ABC63FDB802AB8D92C4C7531489C /* AirPlayServiceHTTP_Private.h in Headers */,
+				2718745B4F3721FD75654B1A495DAB95 /* AirPlayServiceHTTPKeepAlive.h in Headers */,
+				87A416311FE8CA1CCC4C3E4FCF3AB747 /* AirPlayServiceMirrored.h in Headers */,
+				54754F5933C9EE29F5C9AD8342C89870 /* AirPlayWebAppSession.h in Headers */,
+				48AC80ED422E41FC9C912C02B92B3A30 /* AppInfo.h in Headers */,
+				B1C8B1D4DBA1493E4D07937C4E2361F0 /* AppStateChangeNotifier.h in Headers */,
+				150EC7ABCEEA2FC8DE67692B47AEDF31 /* BlockRunner.h in Headers */,
+				ECB79872E62D355E304B56153446055F /* CameraParameter.h in Headers */,
+				ACFB9DE959D3DD6A92DF132DB46CA56D /* CameraSinkCapability.h in Headers */,
+				26831313EBF067B2EDB99C3876BD8306 /* CameraSourceCapability.h in Headers */,
+				949C7F45B8ABFF933021B11C5AA8BB1F /* Capability.h in Headers */,
+				DD3BFF1B537BCB5F98CD0CD86562F845 /* CapabilityFilter.h in Headers */,
+				329842743818DA7A51A61C49BC63F1F1 /* ChannelInfo.h in Headers */,
+				6EC143DD2A16A8BCA98E7B66489A29D5 /* CommonMacros.h in Headers */,
+				3273AE303A359AF0E30C92CAB0F8B390 /* ConnectableDevice.h in Headers */,
+				F35A4255268DC237D9F6946114FA65F7 /* ConnectableDeviceDelegate.h in Headers */,
+				438D1C784AD1C8AAD88AC2989886D7B2 /* ConnectableDeviceStore.h in Headers */,
+				407FD5B4AE13717A81D425DEE7DCC43E /* ConnectError.h in Headers */,
+				051CA44A23C22F156CA54FCEE02BFC2D /* ConnectionManager.h in Headers */,
+				FBB1514166557587698DB769FCC9101B /* ConnectSDK.h in Headers */,
+				15050F45DBF47F9690C2655BE1178968 /* ConnectSDK-umbrella.h in Headers */,
+				4FEE2DAC796D688B967591D285A20BBE /* ConnectSDKDefaultPlatforms.h in Headers */,
+				D708526A29D9A2308CEC698A449D6AB8 /* ConnectUtil.h in Headers */,
+				C0F9CBB9F2DD92D6D18A105522C050F4 /* CTASIAuthenticationDialog.h in Headers */,
+				9EA667ECEB2173F6F62670A25630849A /* CTASICacheDelegate.h in Headers */,
+				65AEAD9102E15C27CF7CFE202A0AC8AF /* CTASIDataCompressor.h in Headers */,
+				1F59E0E365E97FE88761548D227686B5 /* CTASIDataDecompressor.h in Headers */,
+				79BE817375B238F68BBEF9B5DE550A81 /* CTASIDownloadCache.h in Headers */,
+				339946841BC34CE01B4761C161A0E6B0 /* CTASIFormDataRequest.h in Headers */,
+				70A7ACF9E43E9C3C5168E586297994F6 /* CTASIHTTPRequest.h in Headers */,
+				81CFB89C3A9A08830D6A55009863A863 /* CTASIHTTPRequestConfig.h in Headers */,
+				7725B9162E1E98597A37C5695D628190 /* CTASIHTTPRequestDelegate.h in Headers */,
+				4584B4950C1A9D6675B546052B5E585A /* CTASIInputStream.h in Headers */,
+				F11BC6D84B2E66748731D02BAE9642AA /* CTASINetworkQueue.h in Headers */,
+				C70F56BC21B21C461605E48AE9A58620 /* CTASIProgressDelegate.h in Headers */,
+				6D5F249297B336097D4A3A7BF4F79822 /* CTGuid.h in Headers */,
+				A1196A75FE0D6C41D771E9FCAA129614 /* CTReachability.h in Headers */,
+				9FA21EEC39871742B54DE2C6469F4E7C /* CTXMLReader.h in Headers */,
+				FFC94087C9DB62BFA6C9CC93864D5B9A /* DefaultConnectableDeviceStore.h in Headers */,
+				C2D8EFB6EAA5F2DCD4ACA6C6AC9364C3 /* DevicePicker.h in Headers */,
+				C27804E67ED1037066E70A13DA567024 /* DevicePickerDelegate.h in Headers */,
+				A024C06E5AC9FB5249F3342C105C3F91 /* DeviceService.h in Headers */,
+				E1D61125BD2927DCE9FB7E25B8C1BA52 /* DeviceServiceDelegate.h in Headers */,
+				597B981FC82814521BE6B7A1383143C5 /* DeviceServiceReachability.h in Headers */,
+				E905BDB0DBED6541B9FA323C2C431564 /* DIALService.h in Headers */,
+				45781DA52B56BB179D58DF0BD3A4FA90 /* DiscoveryManager.h in Headers */,
+				8BA6641CF8AF9F9DAB8E3BE603074FAE /* DiscoveryManager_Private.h in Headers */,
+				3C0F4259B7F4E3EC3167E881E895B063 /* DiscoveryManagerDelegate.h in Headers */,
+				7883EB87D82DA6E9F0D2E4983B3C8225 /* DiscoveryProvider.h in Headers */,
+				145BAE284F15E46CE8F944BEFC42659F /* DiscoveryProviderDelegate.h in Headers */,
+				20650FAA90B83654A8AAEC8642A57BDD /* DispatchQueueBlockRunner.h in Headers */,
+				D625548BA4F2EFF489617B50E63E041C /* DLNAHTTPServer.h in Headers */,
+				F1408FC2B5DB7A3D4222840E92CDDDB2 /* DLNAHTTPServer_Private.h in Headers */,
+				A3CD6C079F94F9C7FC3DB352AA033AFE /* DLNAService.h in Headers */,
+				6F598CBFDEFECA6E971C25077F0DFB44 /* DLNAService_Private.h in Headers */,
+				3959D19333C58D23A34DD86256C5F106 /* ExternalInputControl.h in Headers */,
+				4C3F8004A92448DD46A2112152B4ACAD /* ExternalInputInfo.h in Headers */,
+				6C3F70509D0FEDA7ACC82CFB77363F86 /* GCDWebServer.h in Headers */,
+				FD8C9B881D0FAF05F67D67BCA2A5FB6A /* GCDWebServerConnection.h in Headers */,
+				98A2776A613434E3E6B17D97400D21DA /* GCDWebServerDataRequest.h in Headers */,
+				453C2AD37E26F98C845180D42FE0344A /* GCDWebServerDataResponse.h in Headers */,
+				4F2ADD316FC949F344F7A67960CC5542 /* GCDWebServerErrorResponse.h in Headers */,
+				ABD3090945BB0791094492CB07A18FC3 /* GCDWebServerFileRequest.h in Headers */,
+				7D136D607A2F1FA1A61292D420CB2A60 /* GCDWebServerFileResponse.h in Headers */,
+				4D5CBB407DEC14974A57F65FDD042A15 /* GCDWebServerFunctions.h in Headers */,
+				F6BCBFFA71C4BD162CE1D15F90FDE9C1 /* GCDWebServerHTTPStatusCodes.h in Headers */,
+				59E544CB217B236E146DAF34476B7AE5 /* GCDWebServerMultiPartFormRequest.h in Headers */,
+				3617A81D378A53BBB433DA7F57A0F88C /* GCDWebServerPrivate.h in Headers */,
+				EB674635B9B9D1F77C3DCEC7C8A6AEFC /* GCDWebServerRequest.h in Headers */,
+				E216789410903558480817FAD2587B7F /* GCDWebServerResponse.h in Headers */,
+				23BE85269CC778BDB6F0E6E6A916A470 /* GCDWebServerStreamedResponse.h in Headers */,
+				F4DA552025F8A85161BD23C0AC950F10 /* GCDWebServerURLEncodedFormRequest.h in Headers */,
+				4CD07FC8321281287A73D93CCF791D03 /* ImageInfo.h in Headers */,
+				4C642FE7B65CBC6959AC45BDFEAE70F7 /* JSONObjectCoding.h in Headers */,
+				8EC6638AB5630DAEFD441B3B564E3DB5 /* KeyControl.h in Headers */,
+				DD18ADEB478FB248FD753D51CF014E70 /* Launcher.h in Headers */,
+				288E0EA912B568A50C30DA517D1DDCAC /* LaunchSession.h in Headers */,
+				4B44A01557412D43543CF3C60335CBD8 /* LGSRWebSocket.h in Headers */,
+				32C3539334A08956AEE3E55C1408ADAB /* MediaControl.h in Headers */,
+				E22D42BE122AF6D85F31E1D1F36700A4 /* MediaInfo.h in Headers */,
+				8A179FF9E971DA6865FB010D46268C9B /* MediaLaunchObject.h in Headers */,
+				A1121B3CE0604F8BDB21F3B675E3652C /* MediaPlayer.h in Headers */,
+				5ABAF13BE0C283F902138CC505E653B8 /* MirroringSinkCapability.h in Headers */,
+				6065AA37F6A0384220A0544EF50B352C /* MirroringSourceCapability.h in Headers */,
+				09D952F8F340AEE525709803E2A9568D /* MobileCapability.h in Headers */,
+				1A5E4981B0C17F266C29AF2328B54BB7 /* MouseControl.h in Headers */,
+				AE592D6689C5D48EDE130042C03522E9 /* NetcastTVService.h in Headers */,
+				051AD1A7EB86CBDB90ECD27CB8151677 /* NetcastTVService_Private.h in Headers */,
+				0462BCE54851819F652D673085B4612A /* NetcastTVServiceConfig.h in Headers */,
+				C0C702502EA9502279BB3C0A09719D41 /* NSDictionary+KeyPredicateSearch.h in Headers */,
+				58E6F730FC4C28905A16774E417F3F13 /* NSMutableDictionary+NilSafe.h in Headers */,
+				099A1A3E714A7F40C049C2C19EA421B6 /* NSObject+FeatureNotSupported_Private.h in Headers */,
+				11BF77322E7DB3024C14388C810EC136 /* NSString+Common.h in Headers */,
+				E174573CA87076649DF7C38344DE299A /* PlayListControl.h in Headers */,
+				93EF15C09B2E12DBECB5E52F102CEEC9 /* PowerControl.h in Headers */,
+				E3674C6E3BF9EE530121686908DD5EFD /* ProgramInfo.h in Headers */,
+				6E3FB9966B6C718C73429E1EC6AA6EBB /* RemoteCameraControl.h in Headers */,
+				6BA88B0395221E17BC7597DA70763180 /* RemoteCameraService.h in Headers */,
+				15A252C2FED3D0FB34B689721BF2906D /* RokuService.h in Headers */,
+				812816B7DA6BAC4C6F6B264EF29ECAD2 /* RokuService_Private.h in Headers */,
+				63F0EFEB4D73EBA94C92551DBA10DE52 /* ScreenMirroringControl.h in Headers */,
+				FEEA767792D6FCF5335128B3982D0E5B /* ScreenMirroringService.h in Headers */,
+				9FAD2D9CEA35BACB55BB2E7298CBA48A /* ServiceAsyncCommand.h in Headers */,
+				E981CF7382067BEB8E0608FAA9E60CEA /* ServiceCommand.h in Headers */,
+				321195E9E853A36930F26F42543AA453 /* ServiceCommandDelegate.h in Headers */,
+				5E1FB207F52812FA556DB9815BDC2273 /* ServiceConfig.h in Headers */,
+				23BF144C5A96D224D2AFE20236795305 /* ServiceConfigDelegate.h in Headers */,
+				E4DD1FA68A6D47F09039ACE88CC83E85 /* ServiceDescription.h in Headers */,
+				CB91905867B92EE21B90E9E1983B5678 /* ServiceSubscription.h in Headers */,
+				A599A0A4474C263DF8A8160339A45977 /* SSDPDiscoveryProvider.h in Headers */,
+				123B3198BAA179E6993F794E8ACA9356 /* SSDPDiscoveryProvider_Private.h in Headers */,
+				17F2C3805F8E8A4D71CC872038DCAA60 /* SSDPSocketListener.h in Headers */,
+				DD0E4D9BA2CEA332FA9BA9FF93D4E707 /* SubscriptionDeduplicator.h in Headers */,
+				B7E2ABDBB45701C950963B990384FB41 /* SubtitleInfo.h in Headers */,
+				07A8B33254C7314CC3D2B9646B931145 /* SynchronousBlockRunner.h in Headers */,
+				5445D78133145D2CFF6FBD7FC57AD910 /* TextInputControl.h in Headers */,
+				D9C2C9D59C856B944EC34D595CA8A5BB /* TextInputStatusInfo.h in Headers */,
+				CE80A9E11B855DAECADB8DC23B44DB17 /* ToastControl.h in Headers */,
+				3D303AC9293726119FB8764D1587BCE5 /* TVControl.h in Headers */,
+				E9988EE402065FB31CCCAC78190D8C59 /* VolumeControl.h in Headers */,
+				23459570E64B873C639AF0761928E76E /* WebAppLauncher.h in Headers */,
+				0C8D08A027663E3ECE8B45A8C08CBA55 /* WebAppSession.h in Headers */,
+				C3F6F9C3A50C3665B8521A429EDD56F3 /* WebAppSessionDelegate.h in Headers */,
+				2B914A6D522EED767ADFF4F7CB0ECEB4 /* WebOSTVService.h in Headers */,
+				9695987315FDA97CB75AF64880D252B8 /* WebOSTVService+LGCast.h in Headers */,
+				C4A50E6EE340FE4D87C13114632BF8EE /* WebOSTVService_Private.h in Headers */,
+				7EB39A9F8711C3C3EC78AFD58FD5006E /* WebOSTVServiceConfig.h in Headers */,
+				604D8E63408152E70EB8A4F02E81CD55 /* WebOSTVServiceMouse.h in Headers */,
+				6DD68169A43942C74ED267E4C3C1763C /* WebOSTVServiceSocketClient.h in Headers */,
+				CDA1C85BE1CA39C24CC5DAAC83E65D73 /* WebOSTVServiceSocketClient_Private.h in Headers */,
+				A2937C43A53D972C7AE4E253EB8B1A7C /* WebOSWebAppSession.h in Headers */,
+				3DCEFADD0AF3DA078EA7AE91E4A98127 /* WebOSWebAppSession_Private.h in Headers */,
+				F61C10C3F1F5A7B67E2BA2443446E223 /* XMLWriter.h in Headers */,
+				4C1373E1F6034C589DBA4F2960480E33 /* XMLWriter+ConvenienceMethods.h in Headers */,
+				A606F11BE4066D012C0BD581946E2951 /* ZeroConfDiscoveryProvider.h in Headers */,
+				6988830A4EE3960A64DBB43B3667B970 /* ZeroConfDiscoveryProvider_Private.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C4AA34011791DBC9489DB8234FCD39F /* ConnectSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA131DB92EA5C7D4495A70653ED315E /* Build configuration list for PBXNativeTarget "ConnectSDK" */;
+			buildPhases = (
+				F31A81634C6BE7A3D20867966E481448 /* Headers */,
+				A789C63A32C598AD2B865585EF570E60 /* [CP] Copy XCFrameworks */,
+				28EB084104A3A0640642CD4CEDFA0222 /* Sources */,
+				9675E8E13B70B88C1C3BB8D9E2B9CA6A /* Frameworks */,
+				62A9CCCD3C8F1CC24C361901708B68CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnectSDK;
+			productName = ConnectSDK;
+			productReference = 1854A2799FFC2ACB3A49207B534B4591 /* ConnectSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A555D7729C52485DFA2D310A09B9CFC /* Pods-ScreenMirroringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE19990B444B3CEE28F4F2ED61077A2A /* Build configuration list for PBXNativeTarget "Pods-ScreenMirroringTests" */;
+			buildPhases = (
+				95CC48CFDB67D0E32EA9E69DA7163FB5 /* Headers */,
+				1323DBFC5E6B037260B5AF65143354A9 /* Sources */,
+				8FFFAAB916C8C5927AB66F7256D6E4D9 /* Frameworks */,
+				42E711CFF27B71D91217C2D9C81799A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82878A780464EE97BAF77AACB6D247D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-ScreenMirroringTests";
+			productName = Pods_ScreenMirroringTests;
+			productReference = 480D806B5A7657F2A4522DA00077DB1F /* Pods-ScreenMirroringTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		70B221E96FC08FC0D96548A4340557CD /* Pods-ScreenMirroring-ScreenMirroringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37A21665BEB81EB64F4DF53F8212D34 /* Build configuration list for PBXNativeTarget "Pods-ScreenMirroring-ScreenMirroringUITests" */;
+			buildPhases = (
+				2CE2657C98EDBC56F4833D0F83DCA773 /* Headers */,
+				2E1EFC75C54693536CFC9F8CC783495F /* Sources */,
+				EB1C50FE74B536CF4A7143848D28F047 /* Frameworks */,
+				97A1869483BAE5F498A9F73FAE8265BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13D69846BD5B50BA9F59D5AB99980364 /* PBXTargetDependency */,
+			);
+			name = "Pods-ScreenMirroring-ScreenMirroringUITests";
+			productName = Pods_ScreenMirroring_ScreenMirroringUITests;
+			productReference = 15F175D6BF83922A50438BA1D6B7F521 /* Pods-ScreenMirroring-ScreenMirroringUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		75E60C4F98A84DD2F83B99310C59DF31 /* Pods-ScreenMirroring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE6C0E70475AA65D461488A3A27EFFF /* Build configuration list for PBXNativeTarget "Pods-ScreenMirroring" */;
+			buildPhases = (
+				5FCD9EF18F50804D36338476DC87686C /* Headers */,
+				6AD31153939CF40F49F16F093F503F6B /* Sources */,
+				3EBAC7CA6766504C5D9B44A8C53BCDF8 /* Frameworks */,
+				CB67DC7C6EB024D4AD6FBC809D05097E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FECB739DAB972B21D9C6228AE07F76D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ScreenMirroring";
+			productName = Pods_ScreenMirroring;
+			productReference = B01834EEFFD183ACEEC5933D3704A99B /* Pods-ScreenMirroring */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D06974DA791A61C8BE76D72CB1C8457B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C4AA34011791DBC9489DB8234FCD39F /* ConnectSDK */,
+				75E60C4F98A84DD2F83B99310C59DF31 /* Pods-ScreenMirroring */,
+				70B221E96FC08FC0D96548A4340557CD /* Pods-ScreenMirroring-ScreenMirroringUITests */,
+				5A555D7729C52485DFA2D310A09B9CFC /* Pods-ScreenMirroringTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42E711CFF27B71D91217C2D9C81799A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A9CCCD3C8F1CC24C361901708B68CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A1869483BAE5F498A9F73FAE8265BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB67DC7C6EB024D4AD6FBC809D05097E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A789C63A32C598AD2B865585EF570E60 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ConnectSDK/ConnectSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ConnectSDK/ConnectSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ConnectSDK/ConnectSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1323DBFC5E6B037260B5AF65143354A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A3361A0AEC78D5B43F844F9C865F3E /* Pods-ScreenMirroringTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EB084104A3A0640642CD4CEDFA0222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D4FEDA338E6E81697044DD92CE22D1 /* AirPlayService.m in Sources */,
+				4A5F1E08907C9CFFA038DB3D02C37D6F /* AirPlayServiceHTTP.m in Sources */,
+				357358C516202385AA99674FF5AC6C95 /* AirPlayServiceHTTPKeepAlive.m in Sources */,
+				8FAA0918C1FFA93009DBA361BBB3DEB3 /* AirPlayServiceMirrored.m in Sources */,
+				DA031B01460685B74B4A466F0075F996 /* AirPlayWebAppSession.m in Sources */,
+				F95F294EB9DD311A2144B841BEFA27E9 /* AppInfo.m in Sources */,
+				38DF04BF68C505B2F9F508D75D6D5EDA /* AppStateChangeNotifier.m in Sources */,
+				2C9CF5DA41D5655D2A7ABECB10A13A76 /* CameraParameter.m in Sources */,
+				B657D951DE643DC4F5F17281DE85BF26 /* CameraSinkCapability.m in Sources */,
+				0C280A3E4AC996C02D004820871BBE6E /* CameraSourceCapability.m in Sources */,
+				9C6BB965A22D9B33780D189D382F0A19 /* CapabilityConstants.m in Sources */,
+				7DD2654513C9EFCABA0A8F6FC612A06B /* CapabilityFilter.m in Sources */,
+				48D31B6C058CC0FEB1D676C247DA847B /* ChannelInfo.m in Sources */,
+				9452DB1B14C86151727B1E4484BD4E97 /* ConnectableDevice.m in Sources */,
+				6B739DF2EDAD4BC3013BC732ED4935A5 /* ConnectError.m in Sources */,
+				3DB676DD72A50D2C86AFFA736D8BACF5 /* ConnectionManager.m in Sources */,
+				AF07540CED5A358022439BAE1C0C0D57 /* ConnectSDK-dummy.m in Sources */,
+				7290B28989BEC84F1906AF957D23E5A3 /* ConnectUtil.m in Sources */,
+				670C98A09498136D7DCE49F8B3E9AB16 /* CTASIAuthenticationDialog.m in Sources */,
+				959069FD1A3F7A1C13B0C07518A0AB00 /* CTASIDataCompressor.m in Sources */,
+				4258CC7BEBA6CDE1A87C10B147B4E1F3 /* CTASIDataDecompressor.m in Sources */,
+				4D16DBEB434B19FF8DBE146C330BE45E /* CTASIDownloadCache.m in Sources */,
+				7F3C271307A33B40B6546AA08FEA10C4 /* CTASIFormDataRequest.m in Sources */,
+				D30B12DA2CCC293469059F16D2F5587B /* CTASIHTTPRequest.m in Sources */,
+				707CC10EE1E1FC4EA2A3F20D794C7C48 /* CTASIInputStream.m in Sources */,
+				4AD121BFFB15E60F87C8617BF77BBB87 /* CTASINetworkQueue.m in Sources */,
+				46BD5DD5F6244407EE7C985864804F71 /* CTGuid.m in Sources */,
+				50ABC06704631B3B3E892DFD09AFEC68 /* CTReachability.m in Sources */,
+				1F6244C500D804F8AA0DCF04AF6E80B3 /* CTXMLReader.m in Sources */,
+				C6D4A144D295B21A9D2099833E6905CE /* DefaultConnectableDeviceStore.m in Sources */,
+				B4082638D0A66CA295AD75CD58ACE52C /* DevicePicker.m in Sources */,
+				93CA0D3128A3382DC1BAB72BADBAC4D9 /* DeviceService.m in Sources */,
+				C9C93132C2008E3146506EC5D7CA12CC /* DeviceServiceReachability.m in Sources */,
+				B4DA2B7172D8EA1EC930FCE0237E3688 /* DIALService.m in Sources */,
+				BFD22C0B5FB0B027267BD855FAFEB1E0 /* DiscoveryManager.m in Sources */,
+				B4723880F26D9315A45EFE2C54DB9301 /* DiscoveryProvider.m in Sources */,
+				EF54F99B56D741C8806F75AE97DDD9BB /* DispatchQueueBlockRunner.m in Sources */,
+				048211851F9DF7A030441BC0794CA585 /* DLNAHTTPServer.m in Sources */,
+				F14141FAF7D654EB20ECB6EF58A25098 /* DLNAService.m in Sources */,
+				5A8EEAAE9C9260CDBB45450EE164BA7F /* ExternalInputInfo.m in Sources */,
+				DC8F684BDD790C40080AFDC202133C9E /* GCDWebServer.m in Sources */,
+				F4D2383B751EE81230B3BCCC968025FA /* GCDWebServerConnection.m in Sources */,
+				8AD5FB45BF49BF7B0E40CA5632DAA977 /* GCDWebServerDataRequest.m in Sources */,
+				C6C75982843B631172AC0F9CAA49B49A /* GCDWebServerDataResponse.m in Sources */,
+				FC110F7C605AFFE56C4744DEC3903270 /* GCDWebServerErrorResponse.m in Sources */,
+				0EAA3A214CEA766A70822D4D51F2687B /* GCDWebServerFileRequest.m in Sources */,
+				59D86E0940BA8FB14611931A80A53502 /* GCDWebServerFileResponse.m in Sources */,
+				4E8C9451F92FE3C65C93FF4864923269 /* GCDWebServerFunctions.m in Sources */,
+				088DB5E06961D58D77A611765A980709 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				1D6006BE40DD878D63C85FB28C87B4B6 /* GCDWebServerRequest.m in Sources */,
+				D25140997E63866831DF2592D80D7E41 /* GCDWebServerResponse.m in Sources */,
+				D27EBEC8C30FFA7476C2A6133B1D30CF /* GCDWebServerStreamedResponse.m in Sources */,
+				9BE01B9621D334A3E6CC8A05DE900A6A /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				23753094C6D1E4EABB0790CB18EF0F08 /* ImageInfo.m in Sources */,
+				6E569E482DD458A1A26604D2D6D1EA0C /* LaunchSession.m in Sources */,
+				B5AC360F1AB81E22F33D0F269A1062D6 /* LGSRWebSocket.m in Sources */,
+				D9B96391CC4FB7F82899AD63E30A0E81 /* MediaInfo.m in Sources */,
+				BFE6BA79E0C274813D930CB1578081BA /* MediaLaunchObject.m in Sources */,
+				C71B89F0346C7DD8605AA74413D4FEFC /* MirroringSinkCapability.m in Sources */,
+				1996949C307B8FD5DE7DF1998AFB018B /* MirroringSourceCapability.m in Sources */,
+				68B2D1931152392A62E933B68E182F8E /* MobileCapability.m in Sources */,
+				8CFC39A94899C57E5A449E51A641937F /* NetcastTVService.m in Sources */,
+				DE5CFC08075F7D0D28F16E25C30E30EE /* NetcastTVServiceConfig.m in Sources */,
+				7216734471359D0A9C4EDA617B13D6AB /* NSDictionary+KeyPredicateSearch.m in Sources */,
+				60BF710A72658CCC7BAAA408071A7385 /* NSMutableDictionary+NilSafe.m in Sources */,
+				5048C8FE3CF663C57C19D44796CD4119 /* NSObject+FeatureNotSupported_Private.m in Sources */,
+				D79F7E438F87744356D3B30470FE2BC4 /* NSString+Common.m in Sources */,
+				A3D5543FE3418478B3AAACF6611244BB /* ProgramInfo.m in Sources */,
+				81F5DA3C9007E26B5C01B03C799AB00D /* RemoteCameraService.m in Sources */,
+				F1B6EEB3D50F07BC82369FEC366A252C /* RokuService.m in Sources */,
+				3515B7F88C786340D0F699D0E046C66E /* ScreenMirroringService.m in Sources */,
+				786351E23553C13616DD836243C11798 /* ServiceAsyncCommand.m in Sources */,
+				548DE8D1845BD3F13F9852A58FEBF608 /* ServiceCommand.m in Sources */,
+				22B549A472909C50320DB6FA93FFE2AB /* ServiceConfig.m in Sources */,
+				D5623A471B9876D82398E3D3B16BD34E /* ServiceDescription.m in Sources */,
+				AF945765DA9C060E0AE1885220DB843A /* ServiceSubscription.m in Sources */,
+				7D6CCAE9D41995FA1609CE1A3F3325A5 /* SSDPDiscoveryProvider.m in Sources */,
+				A059088B89391F598AFC9A82EC238BCD /* SSDPSocketListener.m in Sources */,
+				0F66AF7D412DA4B020D920416427FE01 /* SubscriptionDeduplicator.m in Sources */,
+				112970E27223803CB7E316686484546B /* SubtitleInfo.m in Sources */,
+				31AB1AD94D9D76D26D837EBA13E803D6 /* SynchronousBlockRunner.m in Sources */,
+				27A7509367C5BB2688CF4BFC72FFF6C6 /* TextInputStatusInfo.m in Sources */,
+				1AB8E1FB55D48236E3A36E7094004644 /* WebAppSession.m in Sources */,
+				5816E6E2A90D551B77E9B18F4972818D /* WebOSTVService.m in Sources */,
+				3CCD6AE973CB5B1349E04B6614173F51 /* WebOSTVService+LGCast.m in Sources */,
+				555784D12FEFC08A1B6067DDE581688C /* WebOSTVServiceConfig.m in Sources */,
+				DA55A7FE5A17259FF8CABA14F3A5EE89 /* WebOSTVServiceMouse.m in Sources */,
+				F11B135813F7D8D0783A0A632DD52C37 /* WebOSTVServiceSocketClient.m in Sources */,
+				22171BB5788A159042416D6766F8BEB0 /* WebOSWebAppSession.m in Sources */,
+				4FCE1F2A6BE8825AAA0C413C1E1FF9A6 /* XMLWriter.m in Sources */,
+				4E870DE844F3767C6477B46B520781DF /* XMLWriter+ConvenienceMethods.m in Sources */,
+				399D38788CA01EA4495B2F2720FF6435 /* ZeroConfDiscoveryProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E1EFC75C54693536CFC9F8CC783495F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2B18EA11EBB2EE2C4803204ADA7444 /* Pods-ScreenMirroring-ScreenMirroringUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD31153939CF40F49F16F093F503F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6153EC19EA4B1ECE724F575B74880DF6 /* Pods-ScreenMirroring-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13D69846BD5B50BA9F59D5AB99980364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ConnectSDK;
+			target = 0C4AA34011791DBC9489DB8234FCD39F /* ConnectSDK */;
+			targetProxy = E162F93647B61B9536C251FAF05C0B62 /* PBXContainerItemProxy */;
+		};
+		82878A780464EE97BAF77AACB6D247D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ScreenMirroring";
+			target = 75E60C4F98A84DD2F83B99310C59DF31 /* Pods-ScreenMirroring */;
+			targetProxy = A91FA8C6F4735FBF92EF176A087ECDA4 /* PBXContainerItemProxy */;
+		};
+		FECB739DAB972B21D9C6228AE07F76D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ConnectSDK;
+			target = 0C4AA34011791DBC9489DB8234FCD39F /* ConnectSDK */;
+			targetProxy = 81BD85D258A2009174A49535FF42BA42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4194203F3D051AB8F2A8AD5AF9DA20FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B050FAFAB6060B3C672CFF7B4707E4 /* Pods-ScreenMirroring-ScreenMirroringUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenMirroring-ScreenMirroringUITests/Pods-ScreenMirroring-ScreenMirroringUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenMirroring-ScreenMirroringUITests/Pods-ScreenMirroring-ScreenMirroringUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43824E5AEFD4DAD2534B6A7B37AF011D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30268A79BDB3CD024819C38B5438BF6B /* Pods-ScreenMirroringTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenMirroringTests/Pods-ScreenMirroringTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenMirroringTests/Pods-ScreenMirroringTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C598FFDF186E3402517FC93D8572989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1DB10F5A37AE9E922680D05CA9EA98C /* Pods-ScreenMirroringTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenMirroringTests/Pods-ScreenMirroringTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenMirroringTests/Pods-ScreenMirroringTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D1211E48C141E7F46CE4C298763DF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C1C1FDD3C5603A63B54C17EE6141BD /* ConnectSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConnectSDK/ConnectSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConnectSDK/ConnectSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ConnectSDK/ConnectSDK.modulemap";
+				PRODUCT_MODULE_NAME = ConnectSDK;
+				PRODUCT_NAME = ConnectSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F6B6E799CD108EB2140230DBD5F9EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8813A023F6A606C3C2D94E6A53D51DC1 /* Pods-ScreenMirroring.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenMirroring/Pods-ScreenMirroring-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenMirroring/Pods-ScreenMirroring.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AA4B055BADCA6C385344A56A6748EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D22126B5A7CC569FB48D153A0E543002 /* Pods-ScreenMirroring-ScreenMirroringUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenMirroring-ScreenMirroringUITests/Pods-ScreenMirroring-ScreenMirroringUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenMirroring-ScreenMirroringUITests/Pods-ScreenMirroring-ScreenMirroringUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADDD89B50CC03A88BF7BA918F8B12041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9304E30DBC83A790C41A21CF43813FB9 /* Pods-ScreenMirroring.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenMirroring/Pods-ScreenMirroring-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenMirroring/Pods-ScreenMirroring.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E689AAAD28B2BDE18C86F49AD84CEEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5287573507297811F997AFC753D071 /* ConnectSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConnectSDK/ConnectSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConnectSDK/ConnectSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ConnectSDK/ConnectSDK.modulemap";
+				PRODUCT_MODULE_NAME = ConnectSDK;
+				PRODUCT_NAME = ConnectSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE19990B444B3CEE28F4F2ED61077A2A /* Build configuration list for PBXNativeTarget "Pods-ScreenMirroringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43824E5AEFD4DAD2534B6A7B37AF011D /* Debug */,
+				6C598FFDF186E3402517FC93D8572989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA131DB92EA5C7D4495A70653ED315E /* Build configuration list for PBXNativeTarget "ConnectSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1211E48C141E7F46CE4C298763DF1A /* Debug */,
+				E689AAAD28B2BDE18C86F49AD84CEEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37A21665BEB81EB64F4DF53F8212D34 /* Build configuration list for PBXNativeTarget "Pods-ScreenMirroring-ScreenMirroringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA4B055BADCA6C385344A56A6748EB5 /* Debug */,
+				4194203F3D051AB8F2A8AD5AF9DA20FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE6C0E70475AA65D461488A3A27EFFF /* Build configuration list for PBXNativeTarget "Pods-ScreenMirroring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6B6E799CD108EB2140230DBD5F9EF7 /* Debug */,
+				ADDD89B50CC03A88BF7BA918F8B12041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

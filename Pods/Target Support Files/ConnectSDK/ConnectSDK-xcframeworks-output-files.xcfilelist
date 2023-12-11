@@ -1,0 +1,2 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ConnectSDK/Core/LGCast.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ConnectSDK/Core/GStreamerForLGCast.framework

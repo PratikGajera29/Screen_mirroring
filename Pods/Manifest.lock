@@ -1,0 +1,26 @@
+PODS:
+  - ConnectSDK/Core (2.0.0):
+    - ConnectSDK/no-arc
+  - ConnectSDK/no-arc (2.0.0)
+
+DEPENDENCIES:
+  - ConnectSDK/Core (from `https://github.com/ConnectSDK/Connect-SDK-iOS.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  ConnectSDK:
+    :branch: master
+    :git: https://github.com/ConnectSDK/Connect-SDK-iOS.git
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  ConnectSDK:
+    :commit: f972a3a5383fc7787f4d936fcd7cf294e2fd8569
+    :git: https://github.com/ConnectSDK/Connect-SDK-iOS.git
+    :submodules: true
+
+SPEC CHECKSUMS:
+  ConnectSDK: 9c231b4d1b7d3e9592e0045b0b0b09cf77eb244b
+
+PODFILE CHECKSUM: f8792f4f3c8afe3d28a1b2b423712e1f2f5fc265
+
+COCOAPODS: 1.12.1
