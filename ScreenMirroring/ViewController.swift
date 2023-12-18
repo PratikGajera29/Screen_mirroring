@@ -26,8 +26,7 @@ class ViewController: UIViewController, DevicePickerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        startDiscoveryTV()
-        startscreen()
+//        startscreen()
     }
     
     func startscreen() {
@@ -41,6 +40,9 @@ class ViewController: UIViewController, DevicePickerDelegate {
         } else {
             // UNAVAILABLE
         }
+    }
+    @IBAction func startScan(_ sender: UIButton) {
+        startDiscoveryTV()
     }
     
     func startDiscoveryTV() {

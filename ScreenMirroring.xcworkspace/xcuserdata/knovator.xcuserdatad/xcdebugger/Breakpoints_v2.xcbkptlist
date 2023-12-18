@@ -14,40 +14,40 @@
             filePath = "ScreenMirroring/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "startscreen()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "6DF21EDC-2DDF-4BF4-9ADA-6D05198A1C00 - 7c39b7d08c461c3e"
+                  uuid = "6DF21EDC-2DDF-4BF4-9ADA-6D05198A1C00 - 265f34cd1d058086"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ScreenMirroring.ViewController.startscreen() -&gt; ()"
                   moduleName = "ScreenMirroring"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/knovator/Desktop/ScreenMirroring/ScreenMirroring/ViewController.swift"
+                  urlString = "file:///Users/knovator/Documents/Pratik/GitProjects/Screen/Screen_mirroring/ScreenMirroring/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "1220">
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "792">
                </Location>
                <Location
-                  uuid = "6DF21EDC-2DDF-4BF4-9ADA-6D05198A1C00 - 7c39b7d08c461c3e"
+                  uuid = "6DF21EDC-2DDF-4BF4-9ADA-6D05198A1C00 - 265f34cd1d058086"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ScreenMirroring.ViewController.startscreen() -&gt; ()"
                   moduleName = "ScreenMirroring"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/knovator/Desktop/ScreenMirroring/ScreenMirroring/ViewController.swift"
+                  urlString = "file:///Users/knovator/Documents/Pratik/GitProjects/Screen/Screen_mirroring/ScreenMirroring/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "1024">
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1012">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -62,40 +62,40 @@
             filePath = "ScreenMirroring/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "startscreen()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "83AE87FB-8758-40E1-BF61-18D533F9B927 - 7c39b7d08c461c93"
+                  uuid = "83AE87FB-8758-40E1-BF61-18D533F9B927 - 265f34cd1d058f58"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ScreenMirroring.ViewController.startscreen() -&gt; ()"
                   moduleName = "ScreenMirroring"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/knovator/Desktop/ScreenMirroring/ScreenMirroring/ViewController.swift"
+                  urlString = "file:///Users/knovator/Documents/Pratik/GitProjects/Screen/Screen_mirroring/ScreenMirroring/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "41"
                   endingLineNumber = "41"
-                  offsetFromSymbolStart = "1276">
+                  offsetFromSymbolStart = "1200">
                </Location>
                <Location
-                  uuid = "83AE87FB-8758-40E1-BF61-18D533F9B927 - 7c39b7d08c461cb2"
+                  uuid = "83AE87FB-8758-40E1-BF61-18D533F9B927 - 265f34cd1d058f1a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ScreenMirroring.ViewController.startscreen() -&gt; ()"
                   moduleName = "ScreenMirroring"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/knovator/Desktop/ScreenMirroring/ScreenMirroring/ViewController.swift"
+                  urlString = "file:///Users/knovator/Documents/Pratik/GitProjects/Screen/Screen_mirroring/ScreenMirroring/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "1276">
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1204">
                </Location>
             </Locations>
          </BreakpointContent>
